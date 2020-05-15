@@ -1,7 +1,7 @@
 const moment = require('moment');
 module.exports = {
     title: "Mischieff",
-    base: '/blog/',
+    base: '/docs/',
     description: "Vue 驱动的静态网站生成器",
     head: [
         ['link', { rel: 'icon', href: '/assets/images/logo.png' }],  // 增加一个自定义的 favicon(网页标签的图标)
