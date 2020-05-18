@@ -16,11 +16,11 @@ module.exports = {
         sidebar: 'auto',    // 按照md标题，自动生成侧边栏
         lastUpdated: '更新时间', // 更新时间
         nav: [
-            { text: 'vue插件', link: '/' },
+            { text: '主页', link: '/' },
             {
-                text: 'vue',
+                text: 'vue插件',
                 items: [
-                    { text: '博文一', link: '/blog/' }
+                    { text: '插件一', link: '/blog/' }
                 ]
             },
             { text: '关于', link: '/about/' },
