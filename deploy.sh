@@ -22,3 +22,7 @@ git commit -m 'deploy'
 git push -f git@github.com:mischieff/docs.git master:gh-pages
 
 cd -
+
+#git add .
+#git commit -m "提交说明"
+#git push origin master
