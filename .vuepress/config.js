@@ -20,10 +20,15 @@ module.exports = {
             {
                 text: 'vue插件',
                 items: [
-                    { text: '插件一', link: '/blog/' }
+                    { text: '插件一', link: '/vue/' }
                 ]
             },
-            { text: '关于', link: '/about/' },
+            {
+                text: '其他',
+                items: [
+                    { text: 'flexible自适应方案', link: '/plugs/flexible' }
+                ]
+            },
             { text: 'Github', link: 'https://github.com/mischieff' },
         ],
         sidebar: {
