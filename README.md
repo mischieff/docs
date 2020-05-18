@@ -1,9 +1,9 @@
 ---
 home: true
 heroImage: /assets/images/logo.png
-heroText: Mischieff 标题
-tagline: Mischieff 副标题
-actionText: 快速上手 →
+heroText: Mischieff 博客站
+tagline: 闲了写哈
+actionText: 快速上手
 actionLink: /zh/guide/
 features:
 - title: 简洁至上
