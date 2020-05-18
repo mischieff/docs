@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .item {
+            display: inline-block;
+            width: 40px;
+            height: 60px;
+            background-color: aqua;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <script>
+        function addNewStyle(newStyle) {
+            let styleElement = document.getElementById('styles_js');
+            if (!styleElement) {
+                styleElement = document.createElement('style');
+                styleElement.type = 'text/css';
+                styleElement.id = 'styles_js';
+                document.getElementsByTagName('head')[0].appendChild(styleElement);
+            }
+            styleElement.appendChild(document.createTextNode(newStyle));
+        }
+        // 添加样式
+        addNewStyle('.t-num {height: 100%;overflow: hidden;width: 25px;line-height: 60px;text-align: center;}');
+        addNewStyle('.t-num-s {display: block;height: 100%;width: 100%;}');
+    </script>
+</body>
+
+</html>

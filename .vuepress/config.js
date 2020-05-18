@@ -26,7 +26,8 @@ module.exports = {
             {
                 text: '其他',
                 items: [
-                    { text: 'flexible自适应方案', link: '/plugs/flexible' }
+                    { text: 'flexible自适应方案', link: '/plugs/flexible' },
+                    { text: 'jsToCss', link: '/plugs/jsToCss' }
                 ]
             },
             { text: 'Github', link: 'https://github.com/mischieff' },
