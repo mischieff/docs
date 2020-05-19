@@ -4,8 +4,8 @@ title:"滚动数字组件(向上)"
 # 滚动数字组件(向上)
 > [数字原地滚动链接](http://localhost:8080/docs/vue/scrollNumber.html)
 ## 一、效果图
-![image](/assets/images/scrollNumber3.gif)
-![image](/assets/images/scrollNumber4.gif)
+![image](/docs/assets/images/scrollNumber3.gif)
+![image](/docs/assets/images/scrollNumber4.gif)
 
 ## 二、属性说明
 属性 | 类型(type) | 默认值 | 说明 
