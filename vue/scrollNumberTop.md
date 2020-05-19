@@ -12,7 +12,7 @@ title:"滚动数字组件(向上)"
  ------ | ------ | ------ | ------ 
 value | Number | 0 | 滚动到数值 
 startTime | Number | 500(毫秒) | 开始多少毫秒滚动
-color | String | #05d94f | 默认颜色
+color | String | #2d7cff | 默认颜色
 
 ## 三、使用方式
 #### 整数使用方式

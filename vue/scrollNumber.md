@@ -14,7 +14,7 @@ title:"滚动数字组件(原地)"
 value | Number | 0 | 滚动到的值 
 time | Number | 1000(毫秒) | 滚动频率 
 toFixed | Number | 2 | 保留小数位数 
-color | String | #05d94f | 颜色 
+color | String | #2d7cff | 颜色 
 fontSize | Number | 64 | 字体
 
 ## 三、使用方式
