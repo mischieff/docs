@@ -2,7 +2,7 @@
 title:"滚动数字组件(向上)"
 ---
 # 滚动数字组件(向上)
-> [数字原地滚动链接](http://localhost:8080/docs/vue/scrollNumber.html)
+> [数字原地滚动链接](https://mischieff.github.io/docs/vue/scrollNumber.html)
 ## 一、效果图
 ![image](/docs/assets/images/scrollNumber3.gif)
 ![image](/docs/assets/images/scrollNumber4.gif)
@@ -59,7 +59,7 @@ export default {
   },
   data() {
     return {
-      numberValue: ['0'], // 默认订单总数
+      numberValue: ['0'], // 默认总数
     }
   },
   created() {
@@ -68,7 +68,7 @@ export default {
     this.numberFilter(this.value) // 这里输入数字即可调用
   },
   methods: {
-    // 把订单数变成字符串, 订单数中加入逗号
+    // 把总数变成字符串, 总数数中加入逗号
     numberFilter(num) {
       this.numberValue = num.toString().split('')
       this.numberTo()
@@ -93,7 +93,7 @@ export default {
 }
 </script>
 <style scoped lang='scss'>
-/*订单总量滚动数字设置*/
+/*总量滚动数字设置*/
 .scrollNum {
   margin: 0;
   position: relative;
