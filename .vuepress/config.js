@@ -13,14 +13,15 @@ module.exports = {
     },
     themeConfig: {
         logo: "/assets/images/logo.png",
-        sidebar: 'auto',    // 按照md标题，自动生成侧边栏
+        sidebar: "auto",    // 按照md标题，自动生成侧边栏
         lastUpdated: '更新时间', // 更新时间
         nav: [
             { text: '主页', link: '/' },
             {
                 text: 'vue插件',
                 items: [
-                    { text: '插件一', link: '/vue/' }
+                    { text: '滚动数字（向上）', link: '/vue/scrollNumberTop' },
+                    { text: '滚动数字（原地）', link: '/vue/scrollNumber' },
                 ]
             },
             {
@@ -32,12 +33,7 @@ module.exports = {
             },
             { text: 'Github', link: 'https://github.com/mischieff' },
         ],
-        sidebar: {
-            '/blog/': [
-                '',
-                'blog1'
-            ]
-        },
+        sidebar: {},
     },
     plugins: [
         [
