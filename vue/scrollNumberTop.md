@@ -15,11 +15,11 @@ startTime | Number | 500(毫秒) | 开始多少毫秒滚动
 color | String | #05d94f | 默认颜色
 
 ## 三、使用方式
-### 整数使用方式
+#### 整数使用方式
 ```vue
 <scroll-number value="641"></scroll-number>
 ```
-### 小数使用方式
+#### 小数使用方式
 ```vue
 <scroll-number :value="641,62"></scroll-number>
 ``` 

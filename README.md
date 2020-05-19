@@ -3,14 +3,14 @@ home: true
 heroImage: /assets/images/logo.png
 heroText: Mischieff 博客站
 tagline: 闲了写哈
-actionText: 快速上手
-actionLink: /zh/guide/
+actionText: 快速阅读
+# actionLink: /zh/guide/
 features:
-- title: 简洁至上
+- title: 主页
   details: 以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。
-- title: Vue驱动
-  details: 享受 Vue + webpack 的开发体验，在 Markdown 中使用 Vue 组件，同时可以使用 Vue 来开发自定义主题。
-- title: 高性能
-  details: VuePress 为每个页面预渲染生成静态的 HTML，同时在页面被加载的时候，将作为 SPA 运行。
-footer: MIT Licensed | Copyright © 2018-present Evan You
+- title: Vue插件
+  details: Mischieff为你提供Vue组件，让你的项目炫炫炫！！！。
+- title: 其他
+  details: Mischieff为你提供一起适配方式及解决方案，没错还是让你爽到爆。
+footer: Mischieff 前端菜鸟提供
 ---

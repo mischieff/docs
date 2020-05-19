@@ -18,11 +18,11 @@ color | String | #05d94f | 颜色
 fontSize | Number | 64 | 字体
 
 ## 三、使用方式
-### 整数使用方式
+#### 整数使用方式
 ```vue
 <scroll-number :value="987"></scroll-number>
 ```
-### 小数使用方式
+#### 小数使用方式
 ```vue
 <scroll-number :value="987.3"></scroll-number>
 ``` 
