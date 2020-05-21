@@ -21,7 +21,7 @@ module.exports = {
                 text: 'vue插件',
                 items: [
                     { text: '滚动数字（向上）', link: '/vue/scrollNumberTop' },
-                    { text: '滚动数字（原地）', link: '/vue/scrollNumber' },
+                    { text: '滚动数字（原地）', link: '/vue/scrollNumber' }
                 ]
             },
             {
