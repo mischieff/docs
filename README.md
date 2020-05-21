@@ -2,9 +2,9 @@
 home: true
 heroImage: /assets/images/logo.png
 heroText: Mischieff 博客站
-tagline: 闲了写哈
+tagline: 咋的呢？
 actionText: 快速阅读
-# actionLink: /zh/guide/
+actionLink: /vue/scrollNumberTop
 features:
 - title: 主页
   details: 以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。

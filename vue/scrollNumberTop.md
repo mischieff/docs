@@ -2,7 +2,6 @@
 title:"滚动数字组件(向上)"
 ---
 # 滚动数字组件(向上)
-> [数字原地滚动链接](https://mischieff.github.io/docs/vue/scrollNumber.html)
 ## 一、效果图
 ![image](/docs/assets/images/scrollNumber3.gif)
 ![image](/docs/assets/images/scrollNumber4.gif)

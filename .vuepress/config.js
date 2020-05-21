@@ -25,7 +25,7 @@ module.exports = {
                 ]
             },
             {
-                text: '其他',
+                text: '其他插件',
                 items: [
                     { text: 'flexible自适应方案', link: '/plugs/flexible' },
                     { text: 'jsToCss', link: '/plugs/jsToCss' }
@@ -33,7 +33,24 @@ module.exports = {
             },
             { text: 'Github', link: 'https://github.com/mischieff' },
         ],
-        sidebar: {},
+        sidebar: {
+            '/vue/': [{
+                title: 'vue插件',
+                collapsable: false,
+                children: [
+                    { title: '滚动数字（向上）', path: '/vue/scrollNumberTop' },
+                    { title: '滚动数字（原地）', path: '/vue/scrollNumber' }
+                ]
+            }],
+            '/plugs/': [{
+                title: '其他插件',
+                collapsable: false,
+                children: [
+                    { title: 'flexible自适应方案', path: '/plugs/flexible' },
+                    { title: 'jsToCss', path: '/plugs/jsToCss' }
+                ]
+            }]
+        },
     },
     plugins: [
         [
