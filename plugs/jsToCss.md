@@ -15,7 +15,7 @@
 addNewStyle('.t-num {height: 100%;overflow: hidden;width: 25px;line-height: 60px;text-align: center;}');
 addNewStyle('.t-num-s {display: block;height: 100%;width: 100%;}');
 ```
-> 生成的Css如下
+`生成的Css如下`
 ```css
 .t-num {
     height: 100%;
@@ -41,7 +41,7 @@ for (let i = 1; i <= spanArray.length; i++) {
       document.getElementsByTagName("body")[0].appendChild(linkObj);
 }
 ```
-> 生成的Css如下
+`生成的Css如下`
 ```css
     .item:nth-of-type(1){ 
         -webkit-transform: rotate(72deg);

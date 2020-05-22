@@ -4,7 +4,36 @@ sidebar:true
 # flexible.js 页面布局
 > 用于移动端，可视化页面效果更佳
 
-## 一、引用flexible.js
+## 一、引用代码
+`引用flexible.js代码`
+## 二、修改分割（可忽略）
+flexible默认将页面分成10等分，可以根据自己需求去分割，我平时喜欢分割24份
+```javascript
+var rem = width / 24
+```
+
+## 三、设置remcss
++ vsCode安装remcss插件
++ 重启vscode，初始化remcss
++ 文件->首选项->扩展->remcss中设置rem基础值（默认64px）：设计图宽度/分割分数（步骤二设置的份数）
+
+## 四、设置html头部
+
+```javascript
+//去除
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+```
+```javascript
+//添加
+<meta content="yes" name="apple-mobile-web-app-capable" />
+<meta content="yes" name="apple-touch-fullscreen" />
+<meta content="telephone=no,email=no" name="format-detection" />
+<meta content="maximum-dpr=2" name="flexible" />
+```
+## 五、写css预编译
+输出选择rem单位即可
+
+## 六、flexible.js
 ```javascript
 ;(function(win, lib) {
     var doc = win.document;
@@ -124,29 +153,3 @@ sidebar:true
 
 })(window, window['lib'] || (window['lib'] = {}));
 ```
-## 二、修改分割（可忽略）
-flexible默认将页面分成10等分，可以根据自己需求去分割，我平时喜欢分割24份
-```javascript
-var rem = width / 24
-```
-
-## 三、设置remcss
-+ vsCode安装remcss插件
-+ 重启vscode，初始化remcss
-+ 文件->首选项->扩展->remcss中设置rem基础值（默认64px）：设计图宽度/分割分数（步骤二设置的份数）
-
-## 四、设置html头部
-
-```javascript
-//去除
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-```
-```javascript
-//添加
-<meta content="yes" name="apple-mobile-web-app-capable" />
-<meta content="yes" name="apple-touch-fullscreen" />
-<meta content="telephone=no,email=no" name="format-detection" />
-<meta content="maximum-dpr=2" name="flexible" />
-```
-## 五、写css预编译
-输出选择rem单位即可
