@@ -18,36 +18,51 @@ module.exports = {
         nav: [
             { text: '主页', link: '/' },
             {
-                text: 'vue插件',
+                text: 'vue',
                 items: [
                     { text: '滚动数字（向上）', link: '/vue/scrollNumberTop' },
                     { text: '滚动数字（原地）', link: '/vue/scrollNumber' }
                 ]
             },
+            // {
+            //     text: 'react',
+            //     items: [
+            //         { text: '准备中', link: '/react/index' },
+            //     ]
+            // },
             {
-                text: '其他插件',
+                text: 'javascript',
                 items: [
-                    { text: 'flexible自适应方案', link: '/plugs/flexible' },
-                    { text: 'jsToCss', link: '/plugs/jsToCss' }
+                    { text: 'ECMAScript6', link: '/javascript/ECMAScript6' },
+                    { text: 'flexible自适应方案', link: '/javascript/flexible' },
+                    { text: 'jsToCss', link: '/javascript/jsToCss' }
                 ]
             },
             { text: 'Github', link: 'https://github.com/mischieff' },
         ],
         sidebar: {
             '/vue/': [{
-                title: 'vue插件',
+                title: 'vue',
                 collapsable: false,
                 children: [
                     { title: '滚动数字（向上）', path: '/vue/scrollNumberTop' },
                     { title: '滚动数字（原地）', path: '/vue/scrollNumber' }
                 ]
             }],
-            '/plugs/': [{
-                title: '其他插件',
+            // '/react/': [{
+            //     title: 'react',
+            //     collapsable: false,
+            //     children: [
+            //         { title: '准备中', path: '/react/index' }
+            //     ]
+            // }],
+            '/javascript/': [{
+                title: 'javascript',
                 collapsable: false,
                 children: [
-                    { title: 'flexible自适应方案', path: '/plugs/flexible' },
-                    { title: 'jsToCss', path: '/plugs/jsToCss' }
+                    { title: 'ECMAScript6', path: '/javascript/ECMAScript6' },
+                    { title: 'flexible自适应方案', path: '/javascript/flexible' },
+                    { title: 'jsToCss', path: '/javascript/jsToCss' }
                 ]
             }]
         },
