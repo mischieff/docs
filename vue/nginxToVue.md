@@ -1,12 +1,16 @@
 # nginx代理vue
 
 ## 一、nginx代理vue的意义
-vue打包后,因为开发环境设置代理 **`proxy`** 的原因, 使得访问打包页面 **`dist/index.html`** 请求数据出现跨域。</br>
+vue打包后,因为开发环境设置代理 **`proxy`** 的原因, 使得访问打包页面 **`dist/index.html`** 请求数据出现跨域。</br></br>
 nginx代理vue的意义在于把开发环境中的代理 **`proxy: {'/api': ...`** 的/api, 换成生产环境中的地址。
+
+</br></br>
 
 ## 二、下载nginx
 [nginx官网](http://nginx.org/en/download.html)下载并解压，推荐使用稳定版本（nginx/Windows-1.18.0）
 ![nginx官网](/docs/assets/images/nginxToVue1.png)
+
+</br></br>
 
 ## 三、vue打包
 ```javascript
@@ -14,9 +18,13 @@ nginx代理vue的意义在于把开发环境中的代理 **`proxy: {'/api': ...`
 ```
 (默认)生成文件夹 `dist`
 
+</br></br>
+
 ## 四、放入nginx中
 把生成的 **`dist下所有文件`** 放入压缩后nginx中 `html` 文件夹下
 ![放入nginx中](/docs/assets/images/nginxToVue2.png)
+
+</br></br>
 
 ## 五、配置nginx
 进入nginx的 **`conf`** 文件夹中, 打开 **`nginx.conf`** 文件进行代理配置
@@ -48,6 +56,7 @@ location /api/ {
     proxy_pass  http://192.168.1.10:8888/;    #node api server 即需要代理的IP地址
 }
 ```
+</br></br>
 
 ## 六、启动nginx
 双击 **`nginx.exe`**进行启动（一闪而过，若出现命令行界面，则说明配置有误）
