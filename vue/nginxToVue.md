@@ -20,7 +20,7 @@ nginx代理vue的意义在于把开发环境中的代理 **`proxy: {'/api': ...`
 
 ## 五、配置nginx
 进入nginx的 **`conf`** 文件夹中, 打开 **`nginx.conf`** 文件进行代理配置
-
+![配置nginx](/docs/assets/images/nginxToVue3.png)
 + 默认监听端口为 **`80`**, 可自行更改
 + 默认监听地址为 **`localhost`**, 可自行更改
 ``` javascript
@@ -54,7 +54,7 @@ location /api/ {
 ![启动nginx](/docs/assets/images/nginxToVue4.png)
 
 ## 七、访问打包后的页面
-打开浏览器，访问 **`第五节`**设置的地址和端口（此处为localhost:80）</br>
+打开浏览器，访问 **`第五节`** 设置的地址和端口（此处为localhost:80）</br>
 至此，nginx代理vue打包结束。
 
 
