@@ -20,6 +20,7 @@ module.exports = {
             {
                 text: 'vue',
                 items: [
+                    { text: 'nginx代理vue', link: '/vue/nginxToVue' },
                     { text: '滚动数字（向上）', link: '/vue/scrollNumberTop' },
                     { text: '滚动数字（原地）', link: '/vue/scrollNumber' }
                 ]
@@ -45,6 +46,7 @@ module.exports = {
                 title: 'vue',
                 collapsable: false,
                 children: [
+                    { title: 'nginx代理vue', path: '/vue/nginxToVue' },
                     { title: '滚动数字（向上）', path: '/vue/scrollNumberTop' },
                     { title: '滚动数字（原地）', path: '/vue/scrollNumber' }
                 ]
