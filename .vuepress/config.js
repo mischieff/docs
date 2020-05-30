@@ -23,7 +23,8 @@ module.exports = {
                     { text: 'nginx代理vue', link: '/vue/nginxToVue' },
                     { text: 'Vue配置', link: '/vue/VueConfig' },
                     { text: '滚动数字（向上）', link: '/vue/scrollNumberTop' },
-                    { text: '滚动数字（原地）', link: '/vue/scrollNumber' }
+                    { text: '滚动数字（原地）', link: '/vue/scrollNumber' },
+                    { text: 'div模拟input', link: '/vue/divEdit' },
                 ]
             },
             // {
@@ -50,7 +51,8 @@ module.exports = {
                     { title: 'nginx代理vue', path: '/vue/nginxToVue' },
                     { title: 'Vue配置', path: '/vue/VueConfig' },
                     { title: '滚动数字（向上）', path: '/vue/scrollNumberTop' },
-                    { title: '滚动数字（原地）', path: '/vue/scrollNumber' }
+                    { title: '滚动数字（原地）', path: '/vue/scrollNumber' },
+                    { title: 'div模拟input', path: '/vue/divEdit' },
                 ]
             }],
             // '/react/': [{
