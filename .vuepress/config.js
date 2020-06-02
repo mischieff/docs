@@ -25,6 +25,7 @@ module.exports = {
                     { text: '滚动数字（向上）', link: '/vue/scrollNumberTop' },
                     { text: '滚动数字（原地）', link: '/vue/scrollNumber' },
                     { text: 'div模拟input', link: '/vue/divEdit' },
+                    { text: 'textarea回车标签插件', link: '/vue/textareaEdit' },
                 ]
             },
             // {
@@ -53,6 +54,7 @@ module.exports = {
                     { title: '滚动数字（向上）', path: '/vue/scrollNumberTop' },
                     { title: '滚动数字（原地）', path: '/vue/scrollNumber' },
                     { title: 'div模拟input', path: '/vue/divEdit' },
+                    { title: 'textarea回车标签插件', path: '/vue/textareaEdit' },
                 ]
             }],
             // '/react/': [{
