@@ -21,11 +21,12 @@ module.exports = {
                 text: 'vue',
                 items: [
                     { text: 'nginx代理vue', link: '/vue/nginxToVue' },
-                    { text: 'Vue配置', link: '/vue/VueConfig' },
+                    { text: '左右滑动', link: '/vue/carousel' },
                     { text: '滚动数字（向上）', link: '/vue/scrollNumberTop' },
                     { text: '滚动数字（原地）', link: '/vue/scrollNumber' },
                     { text: 'div模拟input', link: '/vue/divEdit' },
                     { text: 'textarea回车标签插件', link: '/vue/textareaEdit' },
+                    { text: 'Vue按钮权限配置', link: '/vue/VueConfig' },
                 ]
             },
             // {
@@ -50,11 +51,12 @@ module.exports = {
                 collapsable: false,
                 children: [
                     { title: 'nginx代理vue', path: '/vue/nginxToVue' },
-                    { title: 'Vue配置', path: '/vue/VueConfig' },
+                    { title: '左右滑动', path: '/vue/carousel' },
                     { title: '滚动数字（向上）', path: '/vue/scrollNumberTop' },
                     { title: '滚动数字（原地）', path: '/vue/scrollNumber' },
                     { title: 'div模拟input', path: '/vue/divEdit' },
                     { title: 'textarea回车标签插件', path: '/vue/textareaEdit' },
+                    { title: 'Vue按钮权限配置', path: '/vue/VueConfig' },
                 ]
             }],
             // '/react/': [{

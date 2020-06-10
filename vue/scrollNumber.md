@@ -3,8 +3,8 @@ title:"滚动数字组件(原地)"
 ---
 # 滚动数字组件(原地)
 ## 一、效果图
-![image](/docs/assets/images/scrollNumber1.gif)
-![image](/docs/assets/images/scrollNumber2.gif)
+![image](/docs/assets/images/vue-scrollNumber1.gif)
+![image](/docs/assets/images/vue-scrollNumber2.gif)
 
 
 ## 二、属性说明
