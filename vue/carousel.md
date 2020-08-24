@@ -61,16 +61,16 @@ export default {
       let carouselLength = this.carouselList.length; // 数据长度
 
       if (
-        thisWidth * -this.thisPower + carouselWidth <
+        thisWidth * this.step * -this.thisPower + carouselWidth <
         thisWidth * (carouselLength - this.step)
       ) {
         // 没超出时候
         this.thisPower = this.thisPower - this.step; // 设置当前状态
-        this.translateX = this.thisPower * thisWidth; // 滚动位置
+        this.translateX = this.thisPower * (thisWidth + this.itemRight); // 滚动位置
         this.isMoveRight = true; // 是否可向右移动
       } else {
-        // 超出显示最后一个
-        this.translateX = -(thisWidth * carouselLength - carouselWidth);
+        // 超出显示最后一个 
+        this.translateX = -((thisWidth + this.itemRight) * carouselLength - carouselWidth);
         this.isMoveRight = false; // 是否可向右移动
       }
     },
