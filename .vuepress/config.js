@@ -25,101 +25,122 @@ module.exports = {
         sidebar: "auto", // 按照md标题，自动生成侧边栏
         lastUpdated: '更新时间', // 更新时间
         nav: [{
-                text: '主页',
-                link: '/'
+            text: '主页',
+            link: '/'
+        },
+        {
+            text: '文件',
+            items: [{
+                text: '前端开发规范',
+                link: '/doc/webRule'
+            },]
+        },
+        {
+            text: 'vue',
+            items: [{
+                text: '左右滑动',
+                link: '/vue/carousel'
             },
             {
-                text: '文件',
-                items: [{
-                    text: '前端开发规范',
-                    link: '/doc/webRule'
-                }, ]
+                text: '滚动数字（向上）',
+                link: '/vue/scrollNumberTop'
             },
             {
-                text: 'vue',
-                items: [{
-                        text: '左右滑动',
-                        link: '/vue/carousel'
-                    },
-                    {
-                        text: '滚动数字（向上）',
-                        link: '/vue/scrollNumberTop'
-                    },
-                    {
-                        text: '滚动数字（原地）',
-                        link: '/vue/scrollNumber'
-                    },
-                    {
-                        text: 'div模拟input',
-                        link: '/vue/divEdit'
-                    },
-                    {
-                        text: 'textarea回车标签插件',
-                        link: '/vue/textareaEdit'
-                    },
-                    {
-                        text: 'Vue按钮权限配置',
-                        link: '/vue/VueConfig'
-                    },
-                ]
+                text: '滚动数字（原地）',
+                link: '/vue/scrollNumber'
             },
             {
-                text: '配置',
-                items: [{
-                    text: 'nginx代理vue',
-                    link: '/settings/nginxToVue'
-                }, ]
+                text: 'div模拟input',
+                link: '/vue/divEdit'
             },
             {
-                text: 'javascript',
-                items: [{
-                        text: 'ECMAScript6',
-                        link: '/javascript/ECMAScript6'
-                    },
-                    {
-                        text: 'flexible自适应方案',
-                        link: '/javascript/flexible'
-                    },
-                    {
-                        text: 'jsToCss',
-                        link: '/javascript/jsToCss'
-                    }
-                ]
+                text: 'textarea回车标签插件',
+                link: '/vue/textareaEdit'
             },
             {
-                text: 'Github',
-                link: 'https://github.com/mischieff'
+                text: 'Vue按钮权限配置',
+                link: '/vue/VueConfig'
             },
+            ]
+        },
+        {
+            text: 'vue指令',
+            items: [{
+                text: '点击波纹',
+                link: '/directive/waves'
+            }, {
+                text: '弹框拖拽',
+                link: '/directive/drag-dialog'
+            }]
+        },
+        {
+            text: '配置',
+            items: [{
+                text: 'nginx代理vue',
+                link: '/settings/nginxToVue'
+            },]
+        },
+        {
+            text: 'javascript',
+            items: [{
+                text: 'ECMAScript6',
+                link: '/javascript/ECMAScript6'
+            },
+            {
+                text: 'flexible自适应方案',
+                link: '/javascript/flexible'
+            },
+            {
+                text: 'jsToCss',
+                link: '/javascript/jsToCss'
+            }
+            ]
+        },
+        {
+            text: 'Github',
+            link: 'https://github.com/mischieff'
+        },
         ],
         sidebar: {
             '/vue/': [{
                 title: 'vue',
                 collapsable: false,
                 children: [{
-                        title: '左右滑动',
-                        path: '/vue/carousel'
-                    },
-                    {
-                        title: '滚动数字（向上）',
-                        path: '/vue/scrollNumberTop'
-                    },
-                    {
-                        title: '滚动数字（原地）',
-                        path: '/vue/scrollNumber'
-                    },
-                    {
-                        title: 'div模拟input',
-                        path: '/vue/divEdit'
-                    },
-                    {
-                        title: 'textarea回车标签插件',
-                        path: '/vue/textareaEdit'
-                    },
-                    {
-                        title: 'Vue按钮权限配置',
-                        path: '/vue/VueConfig'
-                    },
+                    title: '左右滑动',
+                    path: '/vue/carousel'
+                },
+                {
+                    title: '滚动数字（向上）',
+                    path: '/vue/scrollNumberTop'
+                },
+                {
+                    title: '滚动数字（原地）',
+                    path: '/vue/scrollNumber'
+                },
+                {
+                    title: 'div模拟input',
+                    path: '/vue/divEdit'
+                },
+                {
+                    title: 'textarea回车标签插件',
+                    path: '/vue/textareaEdit'
+                },
+                {
+                    title: 'Vue按钮权限配置',
+                    path: '/vue/VueConfig'
+                },
                 ]
+            }],
+            '/directive/': [{
+                title: '指令',
+                collapsable: false,
+                children: [{
+                    title: '点击波纹',
+                    path: '/directive/waves'
+                }, {
+                    title: '弹框拖拽',
+                    path: '/directive/drag-dialog'
+                }]
             }],
             '/doc/': [{
                 title: '文件',
@@ -127,7 +148,7 @@ module.exports = {
                 children: [{
                     title: '前端开发规范',
                     path: '/doc/webRule'
-                }, ]
+                },]
             }],
             '/settings/': [{
                 title: '配置',
@@ -135,23 +156,23 @@ module.exports = {
                 children: [{
                     title: 'nginx代理vue',
                     path: '/settings/nginxToVue'
-                }, ]
+                },]
             }],
             '/javascript/': [{
                 title: 'javascript',
                 collapsable: false,
                 children: [{
-                        title: 'ECMAScript6',
-                        path: '/javascript/ECMAScript6'
-                    },
-                    {
-                        title: 'flexible自适应方案',
-                        path: '/javascript/flexible'
-                    },
-                    {
-                        title: 'jsToCss',
-                        path: '/javascript/jsToCss'
-                    }
+                    title: 'ECMAScript6',
+                    path: '/javascript/ECMAScript6'
+                },
+                {
+                    title: 'flexible自适应方案',
+                    path: '/javascript/flexible'
+                },
+                {
+                    title: 'jsToCss',
+                    path: '/javascript/jsToCss'
+                }
                 ]
             }]
         },
