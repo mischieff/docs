@@ -23,8 +23,7 @@ git push -f git@github.com:mischieff/docs.git master:gh-pages
 
 cd -
 
-#git add .
-#git commit -m "提交说明"
-#git push origin master
-
-#npm run deploy
+# git add .
+# git commit -m "提交"
+# git remote add origin git@github.com:mischieff/blog.git 
+# git push -u origin master
