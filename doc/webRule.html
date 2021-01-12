@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>一、vue | Mischieff</title>
+    <meta name="generator" content="VuePress 1.5.0">
+    <link rel="icon" href="/docs/assets/images/logo.png">
+    <link rel="manifest" href="/docs/assets/images/logo.png">
+    <link rel="apple-touch-icon" href="/docs/assets/images/logo.png">
+    <meta name="description" content="Vue 驱动的静态网站生成器">
+    <meta name="author" content="mischieff">
+    <meta name="keywords" content="vue,mischieff,mis">
+    <link rel="preload" href="/docs/assets/css/0.styles.10777110.css" as="style"><link rel="preload" href="/docs/assets/js/app.987d89dd.js" as="script"><link rel="preload" href="/docs/assets/js/2.d6a71474.js" as="script"><link rel="preload" href="/docs/assets/js/8.dba42218.js" as="script"><link rel="prefetch" href="/docs/assets/js/10.3c73b493.js"><link rel="prefetch" href="/docs/assets/js/11.78a3e4fa.js"><link rel="prefetch" href="/docs/assets/js/12.d5917744.js"><link rel="prefetch" href="/docs/assets/js/13.e683263b.js"><link rel="prefetch" href="/docs/assets/js/14.dee22c47.js"><link rel="prefetch" href="/docs/assets/js/15.ce7dcd9f.js"><link rel="prefetch" href="/docs/assets/js/16.84f7210f.js"><link rel="prefetch" href="/docs/assets/js/17.60c0f6c1.js"><link rel="prefetch" href="/docs/assets/js/18.d41083fc.js"><link rel="prefetch" href="/docs/assets/js/19.46f088e2.js"><link rel="prefetch" href="/docs/assets/js/20.20b6da63.js"><link rel="prefetch" href="/docs/assets/js/3.d93308da.js"><link rel="prefetch" href="/docs/assets/js/4.525bbc98.js"><link rel="prefetch" href="/docs/assets/js/5.a4d9adaf.js"><link rel="prefetch" href="/docs/assets/js/6.84964646.js"><link rel="prefetch" href="/docs/assets/js/7.1524343d.js"><link rel="prefetch" href="/docs/assets/js/9.5ad9992a.js">
+    <link rel="stylesheet" href="/docs/assets/css/0.styles.10777110.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/docs/" class="home-link router-link-active"><img src="/docs/assets/images/logo.png" alt="Mischieff" class="logo"> <span class="site-name can-hide">Mischieff</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/docs/" class="nav-link">
+  主页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="文件" class="dropdown-title"><span class="title">文件</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/docs/doc/webRule.html" class="nav-link router-link-exact-active router-link-active">
+  前端开发规范
+</a></li><li class="dropdown-item"><!----> <a href="/docs/doc/emoji.html" class="nav-link">
+  Emoji 表情
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="vue" class="dropdown-title"><span class="title">vue</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/docs/vue/carousel.html" class="nav-link">
+  左右滑动
+</a></li><li class="dropdown-item"><!----> <a href="/docs/vue/scrollNumberTop.html" class="nav-link">
+  滚动数字（向上）
+</a></li><li class="dropdown-item"><!----> <a href="/docs/vue/scrollNumber.html" class="nav-link">
+  滚动数字（原地）
+</a></li><li class="dropdown-item"><!----> <a href="/docs/vue/divEdit.html" class="nav-link">
+  div模拟input
+</a></li><li class="dropdown-item"><!----> <a href="/docs/vue/textareaEdit.html" class="nav-link">
+  textarea回车标签插件
+</a></li><li class="dropdown-item"><!----> <a href="/docs/vue/VueConfig.html" class="nav-link">
+  Vue按钮权限配置
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="vue指令" class="dropdown-title"><span class="title">vue指令</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/docs/directive/waves.html" class="nav-link">
+  点击波纹
+</a></li><li class="dropdown-item"><!----> <a href="/docs/directive/drag-dialog.html" class="nav-link">
+  弹框拖拽
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="配置" class="dropdown-title"><span class="title">配置</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/docs/settings/nginxToVue.html" class="nav-link">
+  nginx代理vue
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="javascript" class="dropdown-title"><span class="title">javascript</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/docs/javascript/ECMAScript6.html" class="nav-link">
+  ECMAScript6
+</a></li><li class="dropdown-item"><!----> <a href="/docs/javascript/flexible.html" class="nav-link">
+  flexible自适应方案
+</a></li><li class="dropdown-item"><!----> <a href="/docs/javascript/jsToCss.html" class="nav-link">
+  jsToCss
+</a></li></ul></div></div><div class="nav-item"><a href="https://github.com/mischieff" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/docs/" class="nav-link">
+  主页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="文件" class="dropdown-title"><span class="title">文件</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/docs/doc/webRule.html" class="nav-link router-link-exact-active router-link-active">
+  前端开发规范
+</a></li><li class="dropdown-item"><!----> <a href="/docs/doc/emoji.html" class="nav-link">
+  Emoji 表情
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="vue" class="dropdown-title"><span class="title">vue</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/docs/vue/carousel.html" class="nav-link">
+  左右滑动
+</a></li><li class="dropdown-item"><!----> <a href="/docs/vue/scrollNumberTop.html" class="nav-link">
+  滚动数字（向上）
+</a></li><li class="dropdown-item"><!----> <a href="/docs/vue/scrollNumber.html" class="nav-link">
+  滚动数字（原地）
+</a></li><li class="dropdown-item"><!----> <a href="/docs/vue/divEdit.html" class="nav-link">
+  div模拟input
+</a></li><li class="dropdown-item"><!----> <a href="/docs/vue/textareaEdit.html" class="nav-link">
+  textarea回车标签插件
+</a></li><li class="dropdown-item"><!----> <a href="/docs/vue/VueConfig.html" class="nav-link">
+  Vue按钮权限配置
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="vue指令" class="dropdown-title"><span class="title">vue指令</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/docs/directive/waves.html" class="nav-link">
+  点击波纹
+</a></li><li class="dropdown-item"><!----> <a href="/docs/directive/drag-dialog.html" class="nav-link">
+  弹框拖拽
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="配置" class="dropdown-title"><span class="title">配置</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/docs/settings/nginxToVue.html" class="nav-link">
+  nginx代理vue
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="javascript" class="dropdown-title"><span class="title">javascript</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/docs/javascript/ECMAScript6.html" class="nav-link">
+  ECMAScript6
+</a></li><li class="dropdown-item"><!----> <a href="/docs/javascript/flexible.html" class="nav-link">
+  flexible自适应方案
+</a></li><li class="dropdown-item"><!----> <a href="/docs/javascript/jsToCss.html" class="nav-link">
+  jsToCss
+</a></li></ul></div></div><div class="nav-item"><a href="https://github.com/mischieff" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>文件</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/docs/doc/webRule.html" class="active sidebar-link">前端开发规范</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/docs/doc/webRule.html#一、vue" class="sidebar-link">一、vue</a></li><li class="sidebar-sub-header"><a href="/docs/doc/webRule.html#二、css" class="sidebar-link">二、css</a></li><li class="sidebar-sub-header"><a href="/docs/doc/webRule.html#三、javascript" class="sidebar-link">三、JavaScript</a></li></ul></li><li><a href="/docs/doc/emoji.html" class="sidebar-link">Emoji 表情</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h2 id="一、vue"><a href="#一、vue" class="header-anchor">#</a> 一、vue</h2> <h3 id="_1、结构"><a href="#_1、结构" class="header-anchor">#</a> 1、结构</h3> <blockquote><p>vue项目基本文件目录，可根据项目做微调。</p></blockquote> <div class="language-javascript line-numbers-mode"><pre class="language-javascript"><code>src
+├── App<span class="token punctuation">.</span>vue		<span class="token comment">// 入口文件</span>
+├── main<span class="token punctuation">.</span>js		<span class="token comment">// 主文件</span>
+├── views		<span class="token comment">// 路由文件</span>
+├── api			<span class="token comment">// API接口文件</span>
+├── assets		<span class="token comment">// 资源文件</span>
+├── router		<span class="token comment">// 路由文件</span>
+├── store		<span class="token comment">// vuex</span>
+│  	 ├── modules
+│    ├── getters<span class="token punctuation">.</span>js
+│	 └── index<span class="token punctuation">.</span>js
+├── styles		<span class="token comment">// 样式文件</span>
+│	 ├── index<span class="token punctuation">.</span>scss		<span class="token comment">// 样式主文件</span>
+│    ├── variables<span class="token punctuation">.</span>scss	<span class="token comment">// 颜色文件</span>
+│    ├── mixin<span class="token punctuation">.</span>scss		<span class="token comment">// 混入样式</span>
+│    ├── transition<span class="token punctuation">.</span>scss	<span class="token comment">// 动画文件</span>
+│    ├── table<span class="token punctuation">.</span>scss		<span class="token comment">// 表格文件</span>
+│    └── <span class="token operator">...</span>				<span class="token comment">// 其他文件</span>
+├── utils		<span class="token comment">// 插件</span>
+│    ├── directive<span class="token punctuation">.</span>js	<span class="token comment">// 指令</span>
+│    ├── filter<span class="token punctuation">.</span>js		<span class="token comment">// 过滤器</span>
+│    ├── validate<span class="token punctuation">.</span>js		<span class="token comment">// 其他验证</span>
+│    ├── cookies<span class="token punctuation">.</span>js		<span class="token comment">// 缓存</span>
+│    └── plugin			<span class="token comment">// 其他组件</span>
+└── components	<span class="token comment">// 组件</span>
+     ├── index<span class="token punctuation">.</span>js		<span class="token comment">// 主文件</span>
+     └── <span class="token operator">...</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br></div></div><h3 id="_2、组件方法顺序"><a href="#_2、组件方法顺序" class="header-anchor">#</a> 2、组件方法顺序</h3> <blockquote><p>组件默认顺序</p></blockquote> <div class="language- line-numbers-mode"><pre class="language-text"><code>- components
+- props
+- data
+- computed
+- created
+- mounted
+- metods
+- filter
+- watch
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br></div></div><h3 id="_3、文件命名"><a href="#_3、文件命名" class="header-anchor">#</a> 3、文件命名</h3> <blockquote><p>文件名称统一用 全部采用小写方式， 以中划线分隔 ，其中不得包含汉字、空格和特殊字符；命名原则的指导思想一是使得你自己和工作组的每一个成员能够方便的理解每一个文件的意义，二是当我们在文件夹中使用“按名称排例”的命令时，同一种大类的文件能够排列在一起，以便我们查找、修改、替换、计算负载量等等操作；</p></blockquote> <div class="language-html line-numbers-mode"><pre class="language-html"><code>//正面
+news-item
+
+//反面
+news_item
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><h3 id="_4、组件name"><a href="#_4、组件name" class="header-anchor">#</a> 4、组件name</h3> <blockquote><p>组件名应该始终是多个单词组成（大于等于 2），且命名规范为大驼峰格式。这样做可以避免跟现有的以及未来的 HTML 元素相冲突，因为所有的 HTML 元素名称都是单个单词的</p></blockquote> <div class="language-vue line-numbers-mode"><pre class="language-vue"><code>// 正例
+export default {
+  name: 'TodoItem'
+  // ...
+};
+
+// 反例
+export default {
+  name: 'Todo',
+  // ...
+}
+export default {
+  name: 'todo-item',
+  // ...
+}
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br></div></div><h3 id="_5、组件名"><a href="#_5、组件名" class="header-anchor">#</a> 5、组件名</h3> <blockquote><p>和父组件紧密耦合的子组件应该以父组件名作为前缀命名</p></blockquote> <div class="language-vue line-numbers-mode"><pre class="language-vue"><code>// 正例
+components/
+|- todo-list.vue
+|- todo-list-item.vue
+|- todo-list-item-button.vue
+
+// 反例
+components/
+|- TodoList.vue
+|- TodoItem.vue
+|- TodoButton.vue
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br></div></div><blockquote><p>组件名为多个单词，并且用连接线（-）连接，避免与 HTML 标签冲突，并且结构更加清晰。</p></blockquote> <div class="language-vue line-numbers-mode"><pre class="language-vue"><code>// 正面
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>page-header</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>page-header</span><span class="token punctuation">&gt;</span></span>
+
+// 反面
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>pageHeader</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>pageHeader</span><span class="token punctuation">&gt;</span></span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><h3 id="_6、prop-定义"><a href="#_6、prop-定义" class="header-anchor">#</a> 6、prop 定义</h3> <blockquote><p>prop 的定义应该尽量详细的指定其类型、默认值和验证。</p></blockquote> <div class="language-vue line-numbers-mode"><pre class="language-vue"><code>// 正例
+props: {
+    attrM: Number,
+    attrA: {
+        type: String,
+        required: true
+    },
+    attrZ: {
+        type: Object,
+        default: function () { // 数组/对象的默认值应该由一个工厂函数返回
+            return {
+                msg: '成就你我'
+            }
+        }
+    }
+}
+// 反例
+props: ['attrM', 'attrA']
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br></div></div><h3 id="_7、prop-命名"><a href="#_7、prop-命名" class="header-anchor">#</a> 7、prop 命名</h3> <blockquote><p>定义 prop 的时候应该始终以<code>驼峰格式命名</code>，在父组件赋值的时候使用连接线（-）。这里遵循每个语言的特性，因为在 HTML 标记中对大小写是不敏感的，使用连接线更加友好；而在 JavaScript 中更自然的是驼峰命名。</p></blockquote> <div class="language-vue line-numbers-mode"><pre class="language-vue"><code>// 正例
+props: {
+    articleStatus: {
+		type:Boolean
+	}
+}
+//HTML
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>article-item</span> <span class="token attr-name">:article-status</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>true<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>article-item</span><span class="token punctuation">&gt;</span></span>
+// 反例
+props: {
+    article-status: {
+		type:Boolean
+	}
+}
+//HTML
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>article-item</span> <span class="token attr-name">:articleStatus</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>true<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>article-item</span><span class="token punctuation">&gt;</span></span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br></div></div><h3 id="_8、v-for在执行"><a href="#_8、v-for在执行" class="header-anchor">#</a> 8、v-for在执行</h3> <blockquote><p>v-for 遍历的时候，总是应该带上 key 值使更新 DOM 时渲染效率更高。</p></blockquote> <div class="language-vue line-numbers-mode"><pre class="language-vue"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span> <span class="token attr-name">v-for</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>item in list<span class="token punctuation">&quot;</span></span> <span class="token attr-name">:key</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>item.id<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+    {{ item.title }}
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">&gt;</span></span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><h3 id="_9、v-if-v-else-if-v-else"><a href="#_9、v-if-v-else-if-v-else" class="header-anchor">#</a> 9、v-if / v-else-if / v-else</h3> <blockquote><p>若同一组 v-if 逻辑控制中的元素逻辑相同，Vue 为了更高效的元素切换，会复用相同的部分，例如：value。为了避免复用带来的不合理效果，应该在同种元素上加上 <code>key</code> 做标识。</p></blockquote> <div class="language-vue line-numbers-mode"><pre class="language-vue"><code>// 正例
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">v-if</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>hasData<span class="token punctuation">&quot;</span></span> <span class="token attr-name">key</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>mazey-data<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span><span class="token punctuation">&gt;</span></span>{{ mazeyData }}<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">v-else</span> <span class="token attr-name">key</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>mazey-none<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span><span class="token punctuation">&gt;</span></span>无数据<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+
+// 反例
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">v-if</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>hasData<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span><span class="token punctuation">&gt;</span></span>{{ mazeyData }}<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">v-else</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span><span class="token punctuation">&gt;</span></span>无数据<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br></div></div><h3 id="_10、指令缩写"><a href="#_10、指令缩写" class="header-anchor">#</a> 10、指令缩写</h3> <blockquote><p>为了统一规范始终使用指令缩写，使用v-bind，v-on并没有什么不好，这里仅为了统一规范</p></blockquote> <div class="language-vue line-numbers-mode"><pre class="language-vue"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">:value</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>userName<span class="token punctuation">&quot;</span></span> <span class="token attr-name">@click</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>userName<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><h3 id="_11、样式"><a href="#_11、样式" class="header-anchor">#</a> 11、样式</h3> <blockquote><p>为了避免样式冲突，整个项目要么全都使用 scoped 特性，要么使用 BEM 约定。</p></blockquote> <div class="language-scss line-numbers-mode"><pre class="language-scss"><code>&lt;style scoped&gt;
+...
+&lt;/style&gt;
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><h3 id="_12、单文件组件的顶级元素顺序"><a href="#_12、单文件组件的顶级元素顺序" class="header-anchor">#</a> 12、单文件组件的顶级元素顺序</h3> <blockquote><p>vue单文件模块书写顺序，按照<code>template</code>、<code>script</code>、<code>style</code></p></blockquote> <div class="language-vue line-numbers-mode"><pre class="language-vue"><code>// 正例
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span><span class="token punctuation">&gt;</span></span>
+<span class="token comment">&lt;!-- HTML --&gt;</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>template</span><span class="token punctuation">&gt;</span></span>
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span><span class="token punctuation">&gt;</span></span><span class="token script"><span class="token language-javascript">
+<span class="token comment">/* JavaScript */</span>
+</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>style</span><span class="token punctuation">&gt;</span></span><span class="token style"><span class="token language-css">
+<span class="token comment">/* CSS */</span>
+</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>style</span><span class="token punctuation">&gt;</span></span>
+
+
+
+// 反例
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>style</span><span class="token punctuation">&gt;</span></span><span class="token style"><span class="token language-css">
+<span class="token comment">/* CSS */</span>
+</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>style</span><span class="token punctuation">&gt;</span></span>
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span><span class="token punctuation">&gt;</span></span><span class="token script"><span class="token language-javascript">
+<span class="token comment">/* JavaScript */</span>
+</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span><span class="token punctuation">&gt;</span></span>
+<span class="token comment">&lt;!-- HTML --&gt;</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>template</span><span class="token punctuation">&gt;</span></span>
+
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br></div></div><h3 id="_13、使用eslint"><a href="#_13、使用eslint" class="header-anchor">#</a> 13、使用ESlint</h3> <p>项目必须使用ESlint开发</p> <h2 id="二、css"><a href="#二、css" class="header-anchor">#</a> 二、css</h2> <ul><li>id和class命名<code>越简短越好</code>，便于提高代码效率；</li> <li>id控制行为层（javascript）；</li> <li>class控制表示层（css）；</li> <li>避免选择器嵌套层级过多，尽量<code>少于 4级</code>；</li> <li>同类css写一起，不同类中间用分隔符<code>/*==== 导航 ====*/</code>分割；</li> <li>媒体查询<code>@media screen</code> 与打印<code>@media print</code>单独创建样式文件；</li> <li>级建议使用动态css，如<code>Sass</code>。</li></ul> <h3 id="_1、样式文件命名"><a href="#_1、样式文件命名" class="header-anchor">#</a> 1、样式文件命名</h3> <table><thead><tr><th style="text-align:center;">名称</th> <th style="text-align:center;">文件名</th></tr></thead> <tbody><tr><td style="text-align:center;">主要的</td> <td style="text-align:center;">master.css</td></tr> <tr><td style="text-align:center;">模块</td> <td style="text-align:center;">module.css</td></tr> <tr><td style="text-align:center;">基本共用</td> <td style="text-align:center;">base.css</td></tr> <tr><td style="text-align:center;">布局，版面</td> <td style="text-align:center;">layout.css</td></tr> <tr><td style="text-align:center;">主题</td> <td style="text-align:center;">themes.css</td></tr> <tr><td style="text-align:center;">专栏</td> <td style="text-align:center;">columns.css</td></tr> <tr><td style="text-align:center;">文字</td> <td style="text-align:center;">font.css</td></tr> <tr><td style="text-align:center;">表单</td> <td style="text-align:center;">forms.css</td></tr> <tr><td style="text-align:center;">打印</td> <td style="text-align:center;">print.css</td></tr></tbody></table> <h3 id="_2、文件顶部注释（推荐使用）"><a href="#_2、文件顶部注释（推荐使用）" class="header-anchor">#</a> 2、文件顶部注释（推荐使用）</h3> <blockquote><p>每个文件头部都应写上具体信息</p></blockquote> <div class="language-css line-numbers-mode"><pre class="language-css"><code><span class="token comment">/*
+*   @description: 中文说明
+*   @author: 作者
+*   @update: 2013-04-13 18:32
+*
+*/</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><h3 id="_3、模块注释"><a href="#_3、模块注释" class="header-anchor">#</a> 3、模块注释</h3> <div class="language-css line-numbers-mode"><pre class="language-css"><code><span class="token comment">/* mischieff 2019-7-17 */</span> 
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><h3 id="_4、class类前"><a href="#_4、class类前" class="header-anchor">#</a> 4、class类前</h3> <blockquote><p>建议使用公司简写或个人标注，如zq-（众擎）、mis-（本人）</p></blockquote> <ul><li><p>一律小写;</p></li> <li><p>建议使用<code>-</code>连接符</p></li> <li><p>所用类名一律用英文;</p></li> <li><p>所用类见名知意。</p></li></ul> <div class="language-scss line-numbers-mode"><pre class="language-scss"><code><span class="token selector">.zq-class</span><span class="token punctuation">{</span><span class="token punctuation">}</span>          <span class="token comment">/*  众擎简写 zq  */</span>
+<span class="token selector">.mis-class</span><span class="token punctuation">{</span><span class="token punctuation">}</span>         <span class="token comment">/*  mischieff本人简写  */</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><h3 id="_5、样式建议（示例）"><a href="#_5、样式建议（示例）" class="header-anchor">#</a> 5、样式建议（示例）</h3> <blockquote><p>样式渲染时，由于定位（position）可以从正常的文档流中移除元素，并且还能覆盖盒模型（box model）相关的样式，因此排在首位。
+盒模型决定了组件的尺寸和位置，因此排在第二位。其他属性只是影响组件的内部（inside）或者是不影响前两组属性，因此排在后面。</p></blockquote> <div class="language-scss line-numbers-mode"><pre class="language-scss"><code><span class="token selector">.zq-login</span><span class="token punctuation">{</span>
+    <span class="token property">opsition</span><span class="token punctuation">:</span>absolute<span class="token punctuation">;</span>
+    <span class="token property">top</span><span class="token punctuation">:</span>0<span class="token punctuation">;</span>
+    <span class="token property">left</span><span class="token punctuation">:</span>0<span class="token punctuation">;</span>
+    <span class="token property">border</span><span class="token punctuation">:</span> 1px solid red<span class="token punctuation">;</span>
+    <span class="token property">font-size</span><span class="token punctuation">:</span> 16px<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br></div></div><h3 id="_6、css属性尽量使用缩写"><a href="#_6、css属性尽量使用缩写" class="header-anchor">#</a> 6、css属性尽量使用缩写</h3> <div class="language-scss line-numbers-mode"><pre class="language-scss"><code><span class="token selector">.zq-login</span><span class="token punctuation">{</span>
+    <span class="token property">font</span><span class="token punctuation">:</span> 12px/1.5 serif<span class="token punctuation">;</span>
+    <span class="token property">padding</span><span class="token punctuation">:</span> 0 10px<span class="token punctuation">;</span>10
+<span class="token punctuation">}</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><h3 id="_7、省略0后面的单位"><a href="#_7、省略0后面的单位" class="header-anchor">#</a> 7、省略0后面的单位</h3> <div class="language-scss line-numbers-mode"><pre class="language-scss"><code><span class="token selector">.zq-login</span><span class="token punctuation">{</span>
+    <span class="token property">margin</span><span class="token punctuation">:</span> 0<span class="token punctuation">;</span>
+    <span class="token property">padding</span><span class="token punctuation">:</span> 0<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><h3 id="_8、字体规则"><a href="#_8、字体规则" class="header-anchor">#</a> 8、字体规则</h3> <blockquote><p>为了防止文件合并及编码转换时造成问题，建议将样式中文字体名字改成对应的英文名字，如：
+黑体(SimHei)
+宋体(SimSun)
+微软雅黑 (Microsoft Yahei，几个单词中间有空格组成的必须加引号)</p></blockquote> <h3 id="_9、字体大小"><a href="#_9、字体大小" class="header-anchor">#</a> 9、字体大小</h3> <blockquote><p>直接使用&quot;font+字体大小&quot;作为名称，如下所示：</p></blockquote> <div class="language-scss line-numbers-mode"><pre class="language-scss"><code><span class="token selector">.font12px </span><span class="token punctuation">{</span>
+    <span class="token property">font-size</span><span class="token punctuation">:</span> 12px<span class="token punctuation">;</span> 
+<span class="token punctuation">}</span>
+<span class="token selector">.font9pt </span><span class="token punctuation">{</span>
+    <span class="token property">font-size</span><span class="token punctuation">:</span> 9pt<span class="token punctuation">;</span> 
+<span class="token punctuation">}</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><h3 id="_10、浏览器字体"><a href="#_10、浏览器字体" class="header-anchor">#</a> 10、浏览器字体</h3> <blockquote><p>font-family 属性中的字体族名称应使用字体的英文 Family Name，其中如有空格，须放置在引号中；常见的字体族名称如下<code>西文字体在前，中文字体在后</code>打印优先使用<code>宋体</code></p></blockquote> <div class="language-scss line-numbers-mode"><pre class="language-scss"><code><span class="token selector">body</span><span class="token punctuation">{</span>
+    <span class="token property">font-family</span><span class="token punctuation">:</span> Arial<span class="token punctuation">,</span> <span class="token string">&quot;Microsoft YaHei&quot;</span><span class="token punctuation">,</span> sans-serif<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><table><thead><tr><th style="text-align:center;">字体</th> <th style="text-align:center;">操作系统</th> <th>Family Name</th></tr></thead> <tbody><tr><td style="text-align:center;">宋体 (中易宋体)</td> <td style="text-align:center;">Windows</td> <td>SimSun</td></tr> <tr><td style="text-align:center;">黑体 (中易黑体)</td> <td style="text-align:center;">Windows</td> <td>SimHei</td></tr> <tr><td style="text-align:center;">微软雅黑</td> <td style="text-align:center;">Windows</td> <td>Microsoft YaHei</td></tr> <tr><td style="text-align:center;">微软正黑</td> <td style="text-align:center;">Windows</td> <td>Microsoft JhengHei</td></tr> <tr><td style="text-align:center;">华文黑体</td> <td style="text-align:center;">Mac/iOS</td> <td>STHeiti</td></tr> <tr><td style="text-align:center;">冬青黑体</td> <td style="text-align:center;">Mac/iOS</td> <td>Hiragino Sans GB</td></tr></tbody></table> <h3 id="_11、命名规范"><a href="#_11、命名规范" class="header-anchor">#</a> 11、命名规范</h3> <div class="language-scss line-numbers-mode"><pre class="language-scss"><code>容器<span class="token punctuation">:</span> container 
+页头：header 
+内容：content/container
+页面主体：main 
+页尾：footer 
+导航：nav 
+侧栏：sidebar 
+栏目：column 
+页面外围：wrapper 
+左右中：left right center
+导航：nav 
+主导航：mainbav 
+子导航：subnav 
+顶导航：topnav 
+边导航：sidebar 
+左导航：leftsidebar 
+右导航：rightsidebar 
+菜单：menu 
+子菜单：submenu 
+标题<span class="token punctuation">:</span> title
+摘要<span class="token punctuation">:</span> summary
+标志：logo 
+广告：banner 
+登陆：login 
+登录条：loginbar 
+注册：regsiter 
+搜索：search 
+功能区：shop 
+标题：title 
+加入：joinus 
+状态：status 
+按钮：btn
+滚动：scroll 
+标签页：tab 
+文章列表：list
+提示信息：msg 
+当前的<span class="token punctuation">:</span> current 
+小技巧：tips 
+图标<span class="token punctuation">:</span> icon 
+注释：note 
+指南：guild 
+服务：service 
+热点：hot 
+新闻：news 
+下载：download 
+投票：vote 
+合作伙伴：partner 
+友情链接：link 
+版权：copyright 
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br><span class="line-number">36</span><br><span class="line-number">37</span><br><span class="line-number">38</span><br><span class="line-number">39</span><br><span class="line-number">40</span><br><span class="line-number">41</span><br><span class="line-number">42</span><br><span class="line-number">43</span><br><span class="line-number">44</span><br><span class="line-number">45</span><br><span class="line-number">46</span><br><span class="line-number">47</span><br><span class="line-number">48</span><br><span class="line-number">49</span><br></div></div><h2 id="三、javascript"><a href="#三、javascript" class="header-anchor">#</a> 三、JavaScript</h2> <h3 id="_1、注释"><a href="#_1、注释" class="header-anchor">#</a> 1、注释</h3> <div class="language-javascript line-numbers-mode"><pre class="language-javascript"><code><span class="token comment">/** 
+* @param {String} grid 需要合并的Grid
+* @autho mischieff  2015/07/21 
+**/</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><table><thead><tr><th style="text-align:center;">注释名</th> <th>含义</th> <th>语法</th> <th>示例</th></tr></thead> <tbody><tr><td style="text-align:center;">@param</td> <td>描述参数的信息</td> <td>@param {参数类型} 参数名 描述信息</td> <td>@param {String} name 传入名称</td></tr> <tr><td style="text-align:center;">@return</td> <td>描述返回值的信息</td> <td>@return {返回类型} 描述信息</td> <td>@return {Boolean} true:可执行;false:不可执行</td></tr> <tr><td style="text-align:center;">@autho</td> <td>描述此函数作者的信息</td> <td>@author 作者信息 [附属信息：如邮箱、日期]</td> <td>@author mischieff 2020/08/22</td></tr> <tr><td style="text-align:center;">@version</td> <td>描述此函数的版本号</td> <td>@version XX.XX.XX</td> <td>@version 1.0.1</td></tr></tbody></table> <h3 id="_2、var-let-const"><a href="#_2、var-let-const" class="header-anchor">#</a> 2、var / let / const</h3> <blockquote><p>建议不再使用 var，而使用 let / const，优先使用 const。</p></blockquote> <p>任何一个变量的使用都要提前申明，除了 function 定义的函数可以随便放在任何位置。</p> <h3 id="_3、变量"><a href="#_3、变量" class="header-anchor">#</a> 3、变量</h3> <blockquote><p>私有属性、变量方法以下划线 _ 开头，如下：</p></blockquote> <div class="language-javascript line-numbers-mode"><pre class="language-javascript"><code><span class="token keyword">let</span> _myStyle <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token punctuation">}</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><h3 id="_4、常量"><a href="#_4、常量" class="header-anchor">#</a> 4、常量</h3> <blockquote><p>全部字母大写，单词间下划线分隔的命名方式，如下：</p></blockquote> <div class="language-javascript line-numbers-mode"><pre class="language-javascript"><code><span class="token keyword">const</span> <span class="token constant">MY_STYLE</span> <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token punctuation">}</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><h3 id="_5、函数-函数的参数"><a href="#_5、函数-函数的参数" class="header-anchor">#</a> 5、函数/函数的参数</h3> <blockquote><p>使用 Camel(驼峰) 命名法，如下：</p></blockquote> <div class="language-javascript line-numbers-mode"><pre class="language-javascript"><code><span class="token keyword">function</span> <span class="token function">stringFormat</span><span class="token punctuation">(</span><span class="token parameter">theBells</span><span class="token punctuation">)</span><span class="token punctuation">{</span><span class="token punctuation">}</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><h3 id="_6、构造函数"><a href="#_6、构造函数" class="header-anchor">#</a> 6、构造函数</h3> <blockquote><p>构造函数首字母必须大写，如下：</p></blockquote> <div class="language-javascript line-numbers-mode"><pre class="language-javascript"><code><span class="token keyword">function</span> <span class="token function">Student</span><span class="token punctuation">(</span><span class="token parameter">name</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span>name <span class="token operator">=</span> name<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token keyword">let</span> st <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Student</span><span class="token punctuation">(</span><span class="token string">'tom'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><h3 id="_7、函数命名"><a href="#_7、函数命名" class="header-anchor">#</a> 7、函数命名</h3> <blockquote><p>函数的命名采用前缀为动词，直观看出函数的作用，动词如下：</p></blockquote> <table><thead><tr><th style="text-align:center;">动词</th> <th>含义</th> <th>返回值</th></tr></thead> <tbody><tr><td style="text-align:center;">can</td> <td>判断是否可执行某个动作 ( 权限 )</td> <td>函数返回一个布尔值true：可执行；false：不可执行</td></tr> <tr><td style="text-align:center;">has</td> <td>判断是否含有某个值</td> <td>函数返回一个布尔值。true：含有此值；false：不含有此值</td></tr> <tr><td style="text-align:center;">is</td> <td>判断是否为某个值</td> <td>函数返回一个布尔值。true：为某个值；false：不为某个值</td></tr> <tr><td style="text-align:center;">get</td> <td>获取某个值</td> <td>函数返回一个非布尔值</td></tr> <tr><td style="text-align:center;">set</td> <td>设置某个值</td> <td>无返回值、返回是否设置成功或者返回链式对象</td></tr></tbody></table> <h3 id="_8、true-和-false-布尔表达式"><a href="#_8、true-和-false-布尔表达式" class="header-anchor">#</a> 8、True 和 False 布尔表达式</h3> <p><code>下面的布尔表达式都返回 false:</code></p> <ul><li>null</li> <li>undefined</li> <li>‘’空字符串</li> <li>0 （数字0）</li></ul> <p><code>但小心下面的, 可都返回 true:</code></p> <ul><li>‘0’（字符串0）</li> <li>[] 空数组</li> <li>{} 空对象</li></ul> <h3 id="_9、引号"><a href="#_9、引号" class="header-anchor">#</a> 9、引号</h3> <blockquote><p>建议不再使用双引号，静态字符串使用单引号，动态字符串使用反引号衔接。</p></blockquote> <div class="language-javascript line-numbers-mode"><pre class="language-javascript"><code><span class="token comment">// 正例</span>
+<span class="token keyword">const</span> foo <span class="token operator">=</span> <span class="token string">'众擎'</span>
+<span class="token keyword">const</span> bar <span class="token operator">=</span> <span class="token template-string"><span class="token template-punctuation string">`</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>foo<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">，前端工程师</span><span class="token template-punctuation string">`</span></span>
+
+<span class="token comment">// 反例</span>
+<span class="token keyword">const</span> foo <span class="token operator">=</span> <span class="token string">&quot;众擎&quot;</span>
+<span class="token keyword">const</span> bar <span class="token operator">=</span> foo <span class="token operator">+</span> <span class="token string">&quot;，前端工程师&quot;</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br></div></div><h3 id="_10、函数"><a href="#_10、函数" class="header-anchor">#</a> 10、函数</h3> <blockquote><p>匿名函数统一使用箭头函数，多个参数/返回值时优先使用对象的结构赋值。</p></blockquote> <div class="language-javascript line-numbers-mode"><pre class="language-javascript"><code><span class="token comment">// 正例</span>
+<span class="token keyword">function</span> <span class="token function">getPersonInfo</span> <span class="token punctuation">(</span><span class="token parameter"><span class="token punctuation">{</span>name<span class="token punctuation">,</span> sex<span class="token punctuation">}</span></span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span> <span class="token punctuation">{</span>name<span class="token punctuation">,</span> gender<span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">// 反例</span>
+<span class="token keyword">function</span> <span class="token function">getPersonInfo</span> <span class="token punctuation">(</span><span class="token parameter">name<span class="token punctuation">,</span> sex</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span> <span class="token punctuation">[</span>name<span class="token punctuation">,</span> gender<span class="token punctuation">]</span>
+<span class="token punctuation">}</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br></div></div><p><code>函数名统一使用驼峰命名，以大写字母开头申明的都是构造函数，使用小写字母开头的都是普通函数，也不该使用 new 操作符去操作普通函数。</code></p> <h3 id="_11、对象"><a href="#_11、对象" class="header-anchor">#</a> 11、对象</h3> <blockquote><p>建议使用扩展运算符（...foo）拷贝对象而不是 Object.assign(target, ...sources)。</p></blockquote> <div class="language-javascript line-numbers-mode"><pre class="language-javascript"><code><span class="token comment">// 正例</span>
+<span class="token keyword">const</span> foo <span class="token operator">=</span> <span class="token punctuation">{</span>a<span class="token operator">:</span> <span class="token number">0</span><span class="token punctuation">,</span> b<span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">}</span>
+<span class="token keyword">const</span> bar <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token operator">...</span>foo<span class="token punctuation">,</span> c<span class="token operator">:</span> <span class="token number">2</span><span class="token punctuation">}</span>
+
+<span class="token comment">// 错误</span>
+<span class="token keyword">const</span> foo <span class="token operator">=</span> <span class="token punctuation">{</span>a<span class="token operator">:</span> <span class="token number">0</span><span class="token punctuation">,</span> b<span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">}</span>
+<span class="token keyword">const</span> bar <span class="token operator">=</span> Object<span class="token punctuation">.</span><span class="token function">assign</span><span class="token punctuation">(</span>foo<span class="token punctuation">,</span> <span class="token punctuation">{</span>c<span class="token operator">:</span> <span class="token number">2</span><span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br></div></div><h3 id="_12、console用完及时删掉"><a href="#_12、console用完及时删掉" class="header-anchor">#</a> 12、console用完及时删掉</h3> <blockquote><p>console在ie下存在兼容性，使页面加载不出来。常用的console如下：</p></blockquote> <div class="language-javascript line-numbers-mode"><pre class="language-javascript"><code>console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'hello'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+console<span class="token punctuation">.</span><span class="token function">info</span><span class="token punctuation">(</span><span class="token string">'信息'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+console<span class="token punctuation">.</span><span class="token function">error</span><span class="token punctuation">(</span><span class="token string">'错误'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+console<span class="token punctuation">.</span><span class="token function">warn</span><span class="token punctuation">(</span><span class="token string">'警告'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div></div> <footer class="page-edit"><!----> <div class="last-updated"><span class="prefix">更新时间:</span> <span class="time">2020年8月24日下午4点04分</span></div></footer> <div class="page-nav"><p class="inner"><!----> <span class="next"><a href="/docs/doc/emoji.html">
+        Emoji 表情
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/docs/assets/js/app.987d89dd.js" defer></script><script src="/docs/assets/js/2.d6a71474.js" defer></script><script src="/docs/assets/js/8.dba42218.js" defer></script>
+  </body>
+</html>

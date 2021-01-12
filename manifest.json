@@ -1,0 +1,21 @@
+{
+  "name": "Mischieff",
+  "short_name": "Mischieff",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#2196f3",
+  "description": "Mischieff的个人主页",
+  "theme_color": "blue",
+  "icons": [
+    {
+      "src": "/assets/images/logo.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    }
+  ],
+  "related_applications": [
+    {
+      "platform": "web"
+    }
+  ]
+}

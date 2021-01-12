@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>textarea回车标签插件 | Mischieff</title>
+    <meta name="generator" content="VuePress 1.5.0">
+    <link rel="icon" href="/docs/assets/images/logo.png">
+    <link rel="manifest" href="/docs/assets/images/logo.png">
+    <link rel="apple-touch-icon" href="/docs/assets/images/logo.png">
+    <meta name="description" content="Vue 驱动的静态网站生成器">
+    <meta name="author" content="mischieff">
+    <meta name="keywords" content="vue,mischieff,mis">
+    <link rel="preload" href="/docs/assets/css/0.styles.10777110.css" as="style"><link rel="preload" href="/docs/assets/js/app.987d89dd.js" as="script"><link rel="preload" href="/docs/assets/js/2.d6a71474.js" as="script"><link rel="preload" href="/docs/assets/js/20.20b6da63.js" as="script"><link rel="prefetch" href="/docs/assets/js/10.3c73b493.js"><link rel="prefetch" href="/docs/assets/js/11.78a3e4fa.js"><link rel="prefetch" href="/docs/assets/js/12.d5917744.js"><link rel="prefetch" href="/docs/assets/js/13.e683263b.js"><link rel="prefetch" href="/docs/assets/js/14.dee22c47.js"><link rel="prefetch" href="/docs/assets/js/15.ce7dcd9f.js"><link rel="prefetch" href="/docs/assets/js/16.84f7210f.js"><link rel="prefetch" href="/docs/assets/js/17.60c0f6c1.js"><link rel="prefetch" href="/docs/assets/js/18.d41083fc.js"><link rel="prefetch" href="/docs/assets/js/19.46f088e2.js"><link rel="prefetch" href="/docs/assets/js/3.d93308da.js"><link rel="prefetch" href="/docs/assets/js/4.525bbc98.js"><link rel="prefetch" href="/docs/assets/js/5.a4d9adaf.js"><link rel="prefetch" href="/docs/assets/js/6.84964646.js"><link rel="prefetch" href="/docs/assets/js/7.1524343d.js"><link rel="prefetch" href="/docs/assets/js/8.dba42218.js"><link rel="prefetch" href="/docs/assets/js/9.5ad9992a.js">
+    <link rel="stylesheet" href="/docs/assets/css/0.styles.10777110.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/docs/" class="home-link router-link-active"><img src="/docs/assets/images/logo.png" alt="Mischieff" class="logo"> <span class="site-name can-hide">Mischieff</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/docs/" class="nav-link">
+  主页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="文件" class="dropdown-title"><span class="title">文件</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/docs/doc/webRule.html" class="nav-link">
+  前端开发规范
+</a></li><li class="dropdown-item"><!----> <a href="/docs/doc/emoji.html" class="nav-link">
+  Emoji 表情
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="vue" class="dropdown-title"><span class="title">vue</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/docs/vue/carousel.html" class="nav-link">
+  左右滑动
+</a></li><li class="dropdown-item"><!----> <a href="/docs/vue/scrollNumberTop.html" class="nav-link">
+  滚动数字（向上）
+</a></li><li class="dropdown-item"><!----> <a href="/docs/vue/scrollNumber.html" class="nav-link">
+  滚动数字（原地）
+</a></li><li class="dropdown-item"><!----> <a href="/docs/vue/divEdit.html" class="nav-link">
+  div模拟input
+</a></li><li class="dropdown-item"><!----> <a href="/docs/vue/textareaEdit.html" class="nav-link router-link-exact-active router-link-active">
+  textarea回车标签插件
+</a></li><li class="dropdown-item"><!----> <a href="/docs/vue/VueConfig.html" class="nav-link">
+  Vue按钮权限配置
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="vue指令" class="dropdown-title"><span class="title">vue指令</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/docs/directive/waves.html" class="nav-link">
+  点击波纹
+</a></li><li class="dropdown-item"><!----> <a href="/docs/directive/drag-dialog.html" class="nav-link">
+  弹框拖拽
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="配置" class="dropdown-title"><span class="title">配置</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/docs/settings/nginxToVue.html" class="nav-link">
+  nginx代理vue
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="javascript" class="dropdown-title"><span class="title">javascript</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/docs/javascript/ECMAScript6.html" class="nav-link">
+  ECMAScript6
+</a></li><li class="dropdown-item"><!----> <a href="/docs/javascript/flexible.html" class="nav-link">
+  flexible自适应方案
+</a></li><li class="dropdown-item"><!----> <a href="/docs/javascript/jsToCss.html" class="nav-link">
+  jsToCss
+</a></li></ul></div></div><div class="nav-item"><a href="https://github.com/mischieff" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/docs/" class="nav-link">
+  主页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="文件" class="dropdown-title"><span class="title">文件</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/docs/doc/webRule.html" class="nav-link">
+  前端开发规范
+</a></li><li class="dropdown-item"><!----> <a href="/docs/doc/emoji.html" class="nav-link">
+  Emoji 表情
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="vue" class="dropdown-title"><span class="title">vue</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/docs/vue/carousel.html" class="nav-link">
+  左右滑动
+</a></li><li class="dropdown-item"><!----> <a href="/docs/vue/scrollNumberTop.html" class="nav-link">
+  滚动数字（向上）
+</a></li><li class="dropdown-item"><!----> <a href="/docs/vue/scrollNumber.html" class="nav-link">
+  滚动数字（原地）
+</a></li><li class="dropdown-item"><!----> <a href="/docs/vue/divEdit.html" class="nav-link">
+  div模拟input
+</a></li><li class="dropdown-item"><!----> <a href="/docs/vue/textareaEdit.html" class="nav-link router-link-exact-active router-link-active">
+  textarea回车标签插件
+</a></li><li class="dropdown-item"><!----> <a href="/docs/vue/VueConfig.html" class="nav-link">
+  Vue按钮权限配置
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="vue指令" class="dropdown-title"><span class="title">vue指令</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/docs/directive/waves.html" class="nav-link">
+  点击波纹
+</a></li><li class="dropdown-item"><!----> <a href="/docs/directive/drag-dialog.html" class="nav-link">
+  弹框拖拽
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="配置" class="dropdown-title"><span class="title">配置</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/docs/settings/nginxToVue.html" class="nav-link">
+  nginx代理vue
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="javascript" class="dropdown-title"><span class="title">javascript</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/docs/javascript/ECMAScript6.html" class="nav-link">
+  ECMAScript6
+</a></li><li class="dropdown-item"><!----> <a href="/docs/javascript/flexible.html" class="nav-link">
+  flexible自适应方案
+</a></li><li class="dropdown-item"><!----> <a href="/docs/javascript/jsToCss.html" class="nav-link">
+  jsToCss
+</a></li></ul></div></div><div class="nav-item"><a href="https://github.com/mischieff" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>vue</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/docs/vue/carousel.html" class="sidebar-link">左右滑动</a></li><li><a href="/docs/vue/scrollNumberTop.html" class="sidebar-link">滚动数字（向上）</a></li><li><a href="/docs/vue/scrollNumber.html" class="sidebar-link">滚动数字（原地）</a></li><li><a href="/docs/vue/divEdit.html" class="sidebar-link">div模拟input</a></li><li><a href="/docs/vue/textareaEdit.html" class="active sidebar-link">textarea回车标签插件</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/docs/vue/textareaEdit.html#一、效果图" class="sidebar-link">一、效果图</a></li><li class="sidebar-sub-header"><a href="/docs/vue/textareaEdit.html#二、属性说明" class="sidebar-link">二、属性说明</a></li><li class="sidebar-sub-header"><a href="/docs/vue/textareaEdit.html#三、使用方式" class="sidebar-link">三、使用方式</a></li><li class="sidebar-sub-header"><a href="/docs/vue/textareaEdit.html#四、插件代码" class="sidebar-link">四、插件代码</a></li></ul></li><li><a href="/docs/vue/VueConfig.html" class="sidebar-link">Vue按钮权限配置</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="textarea回车标签插件"><a href="#textarea回车标签插件" class="header-anchor">#</a> textarea回车标签插件</h1> <h2 id="一、效果图"><a href="#一、效果图" class="header-anchor">#</a> 一、效果图</h2> <p><img src="/docs/assets/images/textareaEdit.gif" alt="image"> <br><br></p> <h2 id="二、属性说明"><a href="#二、属性说明" class="header-anchor">#</a> 二、属性说明</h2> <table><thead><tr><th>属性</th> <th>类型(type)</th> <th>默认值</th> <th>说明</th></tr></thead> <tbody><tr><td>v-model</td> <td>Array</td> <td>[]</td> <td>绑定的值</td></tr> <tr><td>disabled</td> <td>Boolean</td> <td>false</td> <td>是否禁用</td></tr> <tr><td>parentArr</td> <td>Array</td> <td>[]</td> <td>回显的值</td></tr> <tr><td>@on-change</td> <td>Function</td> <td></td> <td>父组件响应事件</td></tr></tbody></table> <p><br><br></p> <h2 id="三、使用方式"><a href="#三、使用方式" class="header-anchor">#</a> 三、使用方式</h2> <h4 id="整数使用方式"><a href="#整数使用方式" class="header-anchor">#</a> 整数使用方式</h4> <div class="language-vue line-numbers-mode"><pre class="language-vue"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>textareaTag</span>
+    <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>textarea-tag<span class="token punctuation">&quot;</span></span>
+    <span class="token attr-name">v-model</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>formData2.keyWord1<span class="token punctuation">&quot;</span></span>
+    <span class="token attr-name">:disabled</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>false<span class="token punctuation">&quot;</span></span>
+    <span class="token attr-name">:parentArr</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>formData2.keyWord1<span class="token punctuation">&quot;</span></span>
+    <span class="token attr-name">@on-change</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>keyWord1Change2<span class="token punctuation">&quot;</span></span>
+<span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>textareaTag</span><span class="token punctuation">&gt;</span></span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br></div></div><p><br><br></p> <h2 id="四、插件代码"><a href="#四、插件代码" class="header-anchor">#</a> 四、插件代码</h2> <div class="language-vue line-numbers-mode"><pre class="language-vue"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span>
+    <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>textareaTag<span class="token punctuation">&quot;</span></span>
+    <span class="token attr-name">:class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>[inputFocus?'inputFocus':'',disabled?'textareaTag-disabled':'']<span class="token punctuation">&quot;</span></span>
+    <span class="token attr-name">@click</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>focusInput<span class="token punctuation">&quot;</span></span>
+  <span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">v-for</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>(item,index) in tagArray<span class="token punctuation">&quot;</span></span> <span class="token attr-name">:key</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>index<span class="token punctuation">&quot;</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>tag-item<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span><span class="token punctuation">&gt;</span></span>{{item}}<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>i</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>tag-close<span class="token punctuation">&quot;</span></span> <span class="token attr-name">@click</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>removeTag(index,item)<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>i</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span>
+      <span class="token attr-name">ref</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>textareaTag-input<span class="token punctuation">&quot;</span></span>
+      <span class="token attr-name">:placeholder</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>placeholderText<span class="token punctuation">&quot;</span></span>
+      <span class="token attr-name">:size</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>placeholderText?10:6<span class="token punctuation">&quot;</span></span>
+      <span class="token attr-name">v-model</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>currentval<span class="token punctuation">&quot;</span></span>
+      <span class="token attr-name">@keyup.space</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>addTag<span class="token punctuation">&quot;</span></span>
+      <span class="token attr-name">@focus</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>focusInput<span class="token punctuation">&quot;</span></span>
+      <span class="token attr-name">@blur</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>blurInput<span class="token punctuation">&quot;</span></span>
+      <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>textareaTag-input<span class="token punctuation">&quot;</span></span>
+      <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>text<span class="token punctuation">&quot;</span></span>
+    <span class="token punctuation">/&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>close-all<span class="token punctuation">&quot;</span></span> <span class="token attr-name">v-show</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>tagArray.length&gt;0<span class="token punctuation">&quot;</span></span> <span class="token attr-name">@click</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>removeAll<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>template</span><span class="token punctuation">&gt;</span></span>
+ 
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span><span class="token punctuation">&gt;</span></span><span class="token script"><span class="token language-javascript">
+<span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token punctuation">{</span>
+  name<span class="token operator">:</span> <span class="token string">'textareaTag'</span><span class="token punctuation">,</span>
+  props<span class="token operator">:</span> <span class="token punctuation">{</span>
+    parentArr<span class="token operator">:</span> <span class="token punctuation">{</span>
+      type<span class="token operator">:</span> Array<span class="token punctuation">,</span>
+      <span class="token keyword">default</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token punctuation">]</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    disabled<span class="token operator">:</span> <span class="token punctuation">{</span> <span class="token comment">// 禁止操作</span>
+      type<span class="token operator">:</span> Boolean<span class="token punctuation">,</span>
+      <span class="token keyword">default</span><span class="token operator">:</span> <span class="token boolean">false</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token function">data</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">let</span> tagArray <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span>parentArr <span class="token operator">||</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+    <span class="token keyword">let</span> placeholderText <span class="token operator">=</span> tagArray <span class="token operator">&amp;&amp;</span> tagArray<span class="token punctuation">.</span>length <span class="token operator">&gt;</span> <span class="token number">0</span> <span class="token operator">?</span> <span class="token string">''</span> <span class="token operator">:</span> <span class="token string">'请输入关键词'</span><span class="token punctuation">;</span>
+    <span class="token keyword">return</span> <span class="token punctuation">{</span>
+      placeholderText<span class="token punctuation">,</span>  <span class="token comment">// placeholder</span>
+      currentval<span class="token operator">:</span> <span class="token string">''</span><span class="token punctuation">,</span>   <span class="token comment">// 当前输入的值</span>
+      tagArray<span class="token punctuation">,</span>     <span class="token comment">// 输入的词组</span>
+      inputFocus<span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span> <span class="token comment">// 是否获取焦点</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  watch<span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token function">tagArray</span><span class="token punctuation">(</span><span class="token parameter">old<span class="token punctuation">,</span> cur</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>  <span class="token comment">// 检测tag</span>
+      <span class="token keyword">let</span> tagArray <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span>tagArray<span class="token punctuation">;</span> <span class="token comment">// 获取当前的tag</span>
+      <span class="token keyword">if</span> <span class="token punctuation">(</span>tagArray<span class="token punctuation">.</span>length <span class="token operator">&gt;=</span> <span class="token number">1</span><span class="token punctuation">)</span> <span class="token punctuation">{</span> <span class="token comment">// placeholder删掉</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span>placeholderText <span class="token operator">=</span> <span class="token string">''</span>
+      <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token function">parentArr</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">.</span>parentArr<span class="token punctuation">.</span>length <span class="token operator">&gt;</span> <span class="token number">0</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span>tagArray <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span>
+        <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">let</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> <span class="token keyword">this</span><span class="token punctuation">.</span>parentArr<span class="token punctuation">.</span>length<span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+          <span class="token keyword">this</span><span class="token punctuation">.</span>tagArray<span class="token punctuation">.</span><span class="token function">push</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">.</span>parentArr<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">)</span>
+        <span class="token punctuation">}</span>
+      <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token punctuation">{</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span>tagArray <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span>
+      <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  methods<span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token function">removeTag</span><span class="token punctuation">(</span><span class="token parameter">index<span class="token punctuation">,</span> item</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><span class="token comment">// 移除标签</span>
+      <span class="token keyword">this</span><span class="token punctuation">.</span>tagArray<span class="token punctuation">.</span><span class="token function">splice</span><span class="token punctuation">(</span>index<span class="token punctuation">,</span> <span class="token number">1</span><span class="token punctuation">)</span>
+      <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">$emit</span><span class="token punctuation">(</span><span class="token string">'on-change'</span><span class="token punctuation">,</span> <span class="token keyword">this</span><span class="token punctuation">.</span>tagArray<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token function">removeAll</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>  <span class="token comment">// 移除所有</span>
+      <span class="token keyword">this</span><span class="token punctuation">.</span>tagArray <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+      <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">$emit</span><span class="token punctuation">(</span><span class="token string">'on-change'</span><span class="token punctuation">,</span> <span class="token keyword">this</span><span class="token punctuation">.</span>tagArray<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token function">addTag</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span> <span class="token comment">// input回车加入 tag 中</span>
+      <span class="token keyword">let</span> thisValue <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span>currentval<span class="token punctuation">;</span>  <span class="token comment">// 获取输入的值</span>
+      <span class="token keyword">if</span> <span class="token punctuation">(</span>thisValue<span class="token punctuation">[</span>thisValue<span class="token punctuation">.</span>length <span class="token operator">-</span> <span class="token number">1</span><span class="token punctuation">]</span> <span class="token operator">==</span> <span class="token string">&quot; &quot;</span><span class="token punctuation">)</span> <span class="token punctuation">{</span> <span class="token comment">// 判断是否有空格</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">pushTag</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// 添加骚操作</span>
+      <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token function">pushTag</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span> <span class="token comment">// 添加操作</span>
+      <span class="token keyword">let</span> findTag <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span>tagArray<span class="token punctuation">.</span><span class="token function">indexOf</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">.</span>currentval<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// 判断有没有输入过</span>
+      <span class="token keyword">if</span> <span class="token punctuation">(</span>findTag <span class="token operator">===</span> <span class="token operator">-</span><span class="token number">1</span> <span class="token operator">&amp;&amp;</span> <span class="token keyword">this</span><span class="token punctuation">.</span>currentval<span class="token punctuation">.</span><span class="token function">trim</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><span class="token comment">// 没有输入过或者不为空格</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span>tagArray<span class="token punctuation">.</span><span class="token function">push</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">.</span>currentval<span class="token punctuation">.</span><span class="token function">trim</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+        <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">$emit</span><span class="token punctuation">(</span><span class="token string">'on-change'</span><span class="token punctuation">,</span> <span class="token keyword">this</span><span class="token punctuation">.</span>tagArray<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// 发送事件</span>
+
+      <span class="token punctuation">}</span>
+      <span class="token keyword">this</span><span class="token punctuation">.</span>currentval <span class="token operator">=</span> <span class="token string">''</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token function">blurInput</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>  <span class="token comment">// 失去焦点</span>
+      <span class="token keyword">this</span><span class="token punctuation">.</span>inputFocus <span class="token operator">=</span> <span class="token boolean">false</span><span class="token punctuation">;</span>  <span class="token comment">// 取消边框样式</span>
+      <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">.</span>currentval<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">pushTag</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+      <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token function">focusInput</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>  <span class="token comment">//获取焦点</span>
+      <span class="token keyword">this</span><span class="token punctuation">.</span>$refs<span class="token punctuation">[</span><span class="token string">'textareaTag-input'</span><span class="token punctuation">]</span><span class="token punctuation">.</span><span class="token function">focus</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>  <span class="token comment">// 让input获取焦点</span>
+      <span class="token keyword">this</span><span class="token punctuation">.</span>inputFocus <span class="token operator">=</span> <span class="token boolean">true</span><span class="token punctuation">;</span> <span class="token comment">// 显示获取时候边框样式</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+ 
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>style</span> <span class="token attr-name">lang</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>scss<span class="token punctuation">&quot;</span></span> <span class="token attr-name">scoped</span><span class="token punctuation">&gt;</span></span><span class="token style"><span class="token language-css">
+<span class="token selector">::-webkit-input-placeholder</span> <span class="token punctuation">{</span>
+  <span class="token property">color</span><span class="token punctuation">:</span> #c0c4cc<span class="token punctuation">;</span>
+  <span class="token property">font-size</span><span class="token punctuation">:</span> 14px<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token selector">.textareaTag</span> <span class="token punctuation">{</span>
+  <span class="token property">border</span><span class="token punctuation">:</span> 1px solid #dcdee2<span class="token punctuation">;</span>
+  <span class="token property">border-radius</span><span class="token punctuation">:</span> 4px<span class="token punctuation">;</span>
+  <span class="token property">color</span><span class="token punctuation">:</span> #515a6e<span class="token punctuation">;</span>
+  <span class="token property">min-height</span><span class="token punctuation">:</span> 52px<span class="token punctuation">;</span>
+  <span class="token property">line-height</span><span class="token punctuation">:</span> 1.5<span class="token punctuation">;</span>
+  <span class="token property">padding</span><span class="token punctuation">:</span> 4px 7px<span class="token punctuation">;</span>
+  <span class="token property">text-align</span><span class="token punctuation">:</span> left<span class="token punctuation">;</span>
+  <span class="token property">display</span><span class="token punctuation">:</span> inline-block<span class="token punctuation">;</span>
+  <span class="token property">transition</span><span class="token punctuation">:</span> all 0.3s<span class="token punctuation">;</span>
+  <span class="token property">width</span><span class="token punctuation">:</span> 100%<span class="token punctuation">;</span>
+  <span class="token property">position</span><span class="token punctuation">:</span> relative<span class="token selector">;
+  .close-all</span> <span class="token punctuation">{</span>
+    <span class="token property">position</span><span class="token punctuation">:</span> absolute<span class="token punctuation">;</span>
+    <span class="token property">top</span><span class="token punctuation">:</span> 2px<span class="token punctuation">;</span>
+    <span class="token property">right</span><span class="token punctuation">:</span> 2px<span class="token punctuation">;</span>
+    <span class="token property">display</span><span class="token punctuation">:</span> inline-block<span class="token punctuation">;</span>
+    <span class="token property">width</span><span class="token punctuation">:</span> 18px<span class="token punctuation">;</span>
+    <span class="token property">height</span><span class="token punctuation">:</span> 18px<span class="token punctuation">;</span>
+    <span class="token property">line-height</span><span class="token punctuation">:</span> 18px<span class="token punctuation">;</span>
+    <span class="token property">border-radius</span><span class="token punctuation">:</span> 50%<span class="token punctuation">;</span>
+    <span class="token property">text-align</span><span class="token punctuation">:</span> center<span class="token punctuation">;</span>
+    <span class="token property">background-color</span><span class="token punctuation">:</span> #e8e8e8<span class="token punctuation">;</span>
+    <span class="token property">transition</span><span class="token punctuation">:</span> all 0.3s<span class="token selector">;
+    &amp;::before</span> <span class="token punctuation">{</span>
+      <span class="token property">content</span><span class="token punctuation">:</span> <span class="token string">&quot;\2716&quot;</span><span class="token punctuation">;</span>
+      <span class="token property">font-size</span><span class="token punctuation">:</span> 12px<span class="token punctuation">;</span>
+      <span class="token property">font-weight</span><span class="token punctuation">:</span> normal<span class="token punctuation">;</span>
+      <span class="token property">font-style</span><span class="token punctuation">:</span> normal<span class="token punctuation">;</span>
+      <span class="token property">color</span><span class="token punctuation">:</span> <span class="token function">rgba</span><span class="token punctuation">(</span>#000<span class="token punctuation">,</span> 0.8<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+    <span class="token selector">&amp;:hover</span> <span class="token punctuation">{</span>
+      <span class="token property">background-color</span><span class="token punctuation">:</span> #d0d0d0<span class="token punctuation">;</span>
+      <span class="token property">cursor</span><span class="token punctuation">:</span> pointer<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+  <span class="token selector">&amp;.inputFocus</span> <span class="token punctuation">{</span>
+    <span class="token property">border-color</span><span class="token punctuation">:</span> #1d5aff<span class="token punctuation">;</span>
+    <span class="token property">outline</span><span class="token punctuation">:</span> 0<span class="token punctuation">;</span>
+    <span class="token property">box-shadow</span><span class="token punctuation">:</span> 0 0 0 2px <span class="token function">rgba</span><span class="token punctuation">(</span>#1d5aff<span class="token punctuation">,</span> 0.3<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+  <span class="token selector">&amp;.textareaTag-disabled</span> <span class="token punctuation">{</span>
+    <span class="token property">pointer-events</span><span class="token punctuation">:</span> none<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+  <span class="token selector">.tag-item</span> <span class="token punctuation">{</span>
+    <span class="token property">line-height</span><span class="token punctuation">:</span> 24px<span class="token punctuation">;</span>
+    <span class="token property">margin</span><span class="token punctuation">:</span> 5px 6px 5px 0<span class="token punctuation">;</span>
+    <span class="token property">padding</span><span class="token punctuation">:</span> 0 10px<span class="token punctuation">;</span>
+    <span class="token property">background-color</span><span class="token punctuation">:</span> <span class="token function">rgba</span><span class="token punctuation">(</span>#e6e9ed<span class="token punctuation">,</span> 0.9<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token property">color</span><span class="token punctuation">:</span> <span class="token function">rgba</span><span class="token punctuation">(</span>#000<span class="token punctuation">,</span> 0.8<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token property">border-radius</span><span class="token punctuation">:</span> 14px<span class="token punctuation">;</span>
+    <span class="token property">font-size</span><span class="token punctuation">:</span> 13px<span class="token punctuation">;</span>
+    <span class="token property">display</span><span class="token punctuation">:</span> inline-block<span class="token punctuation">;</span>
+    <span class="token property">position</span><span class="token punctuation">:</span> relative<span class="token punctuation">;</span>
+    <span class="token property">vertical-align</span><span class="token punctuation">:</span> middle<span class="token punctuation">;</span>
+    <span class="token property">transition</span><span class="token punctuation">:</span> 0.25s linear<span class="token selector">;
+    &amp;:hover</span> <span class="token punctuation">{</span>
+      <span class="token property">padding</span><span class="token punctuation">:</span> 0px 20px 0 6px<span class="token selector">;
+      .tag-close</span> <span class="token punctuation">{</span>
+        <span class="token property">opacity</span><span class="token punctuation">:</span> 1<span class="token punctuation">;</span>
+      <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+    <span class="token selector">.tag-close</span> <span class="token punctuation">{</span>
+      <span class="token property">padding</span><span class="token punctuation">:</span> 0 10px 0 0<span class="token punctuation">;</span>
+      <span class="token property">cursor</span><span class="token punctuation">:</span> pointer<span class="token punctuation">;</span>
+      <span class="token property">font-size</span><span class="token punctuation">:</span> 14px<span class="token punctuation">;</span>
+      <span class="token property">position</span><span class="token punctuation">:</span> absolute<span class="token punctuation">;</span>
+      <span class="token property">right</span><span class="token punctuation">:</span> -3px<span class="token punctuation">;</span>
+      <span class="token property">top</span><span class="token punctuation">:</span> -2px<span class="token punctuation">;</span>
+      <span class="token property">text-align</span><span class="token punctuation">:</span> right<span class="token punctuation">;</span>
+      <span class="token property">text-decoration</span><span class="token punctuation">:</span> none<span class="token punctuation">;</span>
+      <span class="token property">top</span><span class="token punctuation">:</span> 0<span class="token punctuation">;</span>
+      <span class="token property">width</span><span class="token punctuation">:</span> 100%<span class="token punctuation">;</span>
+      <span class="token property">bottom</span><span class="token punctuation">:</span> 0<span class="token punctuation">;</span>
+      <span class="token property">z-index</span><span class="token punctuation">:</span> 2<span class="token punctuation">;</span>
+      <span class="token property">opacity</span><span class="token punctuation">:</span> 0<span class="token punctuation">;</span>
+      <span class="token property">filter</span><span class="token punctuation">:</span> <span class="token string">&quot;alpha(opacity=0)&quot;</span><span class="token punctuation">;</span>
+      <span class="token property">transition</span><span class="token punctuation">:</span> opacity 0.25s linear<span class="token selector">;
+      &amp;::before</span> <span class="token punctuation">{</span>
+        <span class="token property">content</span><span class="token punctuation">:</span> <span class="token string">&quot;\2716&quot;</span><span class="token punctuation">;</span>
+        <span class="token property">font-size</span><span class="token punctuation">:</span> 12px<span class="token punctuation">;</span>
+        <span class="token property">font-weight</span><span class="token punctuation">:</span> normal<span class="token punctuation">;</span>
+        <span class="token property">font-style</span><span class="token punctuation">:</span> normal<span class="token punctuation">;</span>
+        <span class="token property">color</span><span class="token punctuation">:</span> <span class="token function">rgba</span><span class="token punctuation">(</span>#000<span class="token punctuation">,</span> 0.8<span class="token punctuation">)</span><span class="token punctuation">;</span>
+      <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+  <span class="token comment">/* 输入框 */</span>
+  <span class="token selector">.textareaTag-input</span> <span class="token punctuation">{</span>
+    <span class="token property">border</span><span class="token punctuation">:</span> none<span class="token punctuation">;</span>
+    <span class="token property">outline</span><span class="token punctuation">:</span> none<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>style</span><span class="token punctuation">&gt;</span></span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br><span class="line-number">36</span><br><span class="line-number">37</span><br><span class="line-number">38</span><br><span class="line-number">39</span><br><span class="line-number">40</span><br><span class="line-number">41</span><br><span class="line-number">42</span><br><span class="line-number">43</span><br><span class="line-number">44</span><br><span class="line-number">45</span><br><span class="line-number">46</span><br><span class="line-number">47</span><br><span class="line-number">48</span><br><span class="line-number">49</span><br><span class="line-number">50</span><br><span class="line-number">51</span><br><span class="line-number">52</span><br><span class="line-number">53</span><br><span class="line-number">54</span><br><span class="line-number">55</span><br><span class="line-number">56</span><br><span class="line-number">57</span><br><span class="line-number">58</span><br><span class="line-number">59</span><br><span class="line-number">60</span><br><span class="line-number">61</span><br><span class="line-number">62</span><br><span class="line-number">63</span><br><span class="line-number">64</span><br><span class="line-number">65</span><br><span class="line-number">66</span><br><span class="line-number">67</span><br><span class="line-number">68</span><br><span class="line-number">69</span><br><span class="line-number">70</span><br><span class="line-number">71</span><br><span class="line-number">72</span><br><span class="line-number">73</span><br><span class="line-number">74</span><br><span class="line-number">75</span><br><span class="line-number">76</span><br><span class="line-number">77</span><br><span class="line-number">78</span><br><span class="line-number">79</span><br><span class="line-number">80</span><br><span class="line-number">81</span><br><span class="line-number">82</span><br><span class="line-number">83</span><br><span class="line-number">84</span><br><span class="line-number">85</span><br><span class="line-number">86</span><br><span class="line-number">87</span><br><span class="line-number">88</span><br><span class="line-number">89</span><br><span class="line-number">90</span><br><span class="line-number">91</span><br><span class="line-number">92</span><br><span class="line-number">93</span><br><span class="line-number">94</span><br><span class="line-number">95</span><br><span class="line-number">96</span><br><span class="line-number">97</span><br><span class="line-number">98</span><br><span class="line-number">99</span><br><span class="line-number">100</span><br><span class="line-number">101</span><br><span class="line-number">102</span><br><span class="line-number">103</span><br><span class="line-number">104</span><br><span class="line-number">105</span><br><span class="line-number">106</span><br><span class="line-number">107</span><br><span class="line-number">108</span><br><span class="line-number">109</span><br><span class="line-number">110</span><br><span class="line-number">111</span><br><span class="line-number">112</span><br><span class="line-number">113</span><br><span class="line-number">114</span><br><span class="line-number">115</span><br><span class="line-number">116</span><br><span class="line-number">117</span><br><span class="line-number">118</span><br><span class="line-number">119</span><br><span class="line-number">120</span><br><span class="line-number">121</span><br><span class="line-number">122</span><br><span class="line-number">123</span><br><span class="line-number">124</span><br><span class="line-number">125</span><br><span class="line-number">126</span><br><span class="line-number">127</span><br><span class="line-number">128</span><br><span class="line-number">129</span><br><span class="line-number">130</span><br><span class="line-number">131</span><br><span class="line-number">132</span><br><span class="line-number">133</span><br><span class="line-number">134</span><br><span class="line-number">135</span><br><span class="line-number">136</span><br><span class="line-number">137</span><br><span class="line-number">138</span><br><span class="line-number">139</span><br><span class="line-number">140</span><br><span class="line-number">141</span><br><span class="line-number">142</span><br><span class="line-number">143</span><br><span class="line-number">144</span><br><span class="line-number">145</span><br><span class="line-number">146</span><br><span class="line-number">147</span><br><span class="line-number">148</span><br><span class="line-number">149</span><br><span class="line-number">150</span><br><span class="line-number">151</span><br><span class="line-number">152</span><br><span class="line-number">153</span><br><span class="line-number">154</span><br><span class="line-number">155</span><br><span class="line-number">156</span><br><span class="line-number">157</span><br><span class="line-number">158</span><br><span class="line-number">159</span><br><span class="line-number">160</span><br><span class="line-number">161</span><br><span class="line-number">162</span><br><span class="line-number">163</span><br><span class="line-number">164</span><br><span class="line-number">165</span><br><span class="line-number">166</span><br><span class="line-number">167</span><br><span class="line-number">168</span><br><span class="line-number">169</span><br><span class="line-number">170</span><br><span class="line-number">171</span><br><span class="line-number">172</span><br><span class="line-number">173</span><br><span class="line-number">174</span><br><span class="line-number">175</span><br><span class="line-number">176</span><br><span class="line-number">177</span><br><span class="line-number">178</span><br><span class="line-number">179</span><br><span class="line-number">180</span><br><span class="line-number">181</span><br><span class="line-number">182</span><br><span class="line-number">183</span><br><span class="line-number">184</span><br><span class="line-number">185</span><br><span class="line-number">186</span><br><span class="line-number">187</span><br><span class="line-number">188</span><br><span class="line-number">189</span><br><span class="line-number">190</span><br><span class="line-number">191</span><br><span class="line-number">192</span><br><span class="line-number">193</span><br><span class="line-number">194</span><br><span class="line-number">195</span><br><span class="line-number">196</span><br><span class="line-number">197</span><br><span class="line-number">198</span><br><span class="line-number">199</span><br><span class="line-number">200</span><br><span class="line-number">201</span><br><span class="line-number">202</span><br><span class="line-number">203</span><br><span class="line-number">204</span><br></div></div></div> <footer class="page-edit"><!----> <div class="last-updated"><span class="prefix">更新时间:</span> <span class="time">2020年6月10日下午5点19分</span></div></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/docs/vue/divEdit.html" class="prev">
+        div模拟input
+      </a></span> <span class="next"><a href="/docs/vue/VueConfig.html">
+        Vue按钮权限配置
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/docs/assets/js/app.987d89dd.js" defer></script><script src="/docs/assets/js/2.d6a71474.js" defer></script><script src="/docs/assets/js/20.20b6da63.js" defer></script>
+  </body>
+</html>
