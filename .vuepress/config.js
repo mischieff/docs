@@ -59,6 +59,10 @@ module.exports = {
             text: '前端开发规范',
             link: '/doc/webRule',
           },
+          {
+            text: 'Emoji 表情',
+            link: '/doc/emoji',
+          },
         ],
       },
       {
@@ -191,6 +195,10 @@ module.exports = {
             {
               title: '前端开发规范',
               path: '/doc/webRule',
+            },
+            {
+              title: 'Emoji 表情',
+              path: '/doc/emoji',
             },
           ],
         },
